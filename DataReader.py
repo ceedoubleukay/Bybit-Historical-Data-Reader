@@ -7,13 +7,24 @@ import schedule
 import time
 from dotenv import load_dotenv
 from ccxt.base.errors import RequestTimeout
+import psycopg2
+from psycopg2.extras import execute_values
 
-# load .env variables
+# Load .env variables
 load_dotenv()
 
 symbols = ['BTC/USDT:USDT']  # List of symbols to fetch
 timeframes = ['1m']  # List of all possible timeframes to fetch
 start_year = 2020
+
+# PostgreSQL connection parameters
+db_params = {
+    'dbname': os.getenv('DB_NAME'),
+    'user': os.getenv('DB_USER'),
+    'password': os.getenv('DB_PASSWORD'),
+    'host': os.getenv('DB_HOST'),
+    'port': os.getenv('DB_PORT')
+}
 
 # Get the directory of the current script
 script_dir = os.path.dirname(os.path.abspath(__file__))
@@ -27,9 +38,9 @@ def timeframe_to_sec(timeframe):
     elif 'd' in timeframe:
         return int(''.join([char for char in timeframe if char.isnumeric()])) * 24 * 60 * 60
     elif 'w' in timeframe:
-        return int(''.join([char for char in timeframe if char.isnumeric()])) * 7 * 24 * 60 * 60
+        return int(''.join([char for char in timeframe if char is_numeric()])) * 7 * 24 * 60 * 60
     elif 'M' in timeframe:
-        return int(''.join([char for char in timeframe if char.isnumeric()])) * 30 * 24 * 60 * 60
+        return int(''.join([char for char in timeframe if char.is_numeric()])) * 30 * 24 * 60 * 60
 
 def get_historical_data(symbol, timeframe, start_time, end_time):
     bybit = ccxt.bybit({
@@ -71,35 +82,48 @@ def get_historical_data(symbol, timeframe, start_time, end_time):
     return dataframe
 
 def fetch_and_save_data():
+    conn = psycopg2.connect(**db_params)
+    cur = conn.cursor()
+
     end_time = datetime.datetime.utcnow()
     start_time = datetime.datetime(start_year, 1, 1)  # Start from January 1st of the specified year
 
     # Loop through each timeframe and save the data for all symbols in a single file per timeframe
     for timeframe in timeframes:
-        combined_dataframe = pd.DataFrame()
-
         for symbol in symbols:
-            # Determine the file path
-            combined_file = os.path.join(script_dir, f'combined-data-{timeframe}.csv')
+            print(f"Processing {symbol} for timeframe {timeframe}")
 
-            if os.path.exists(combined_file):
-                print(f"Loading existing data from {combined_file}")
-                existing_data = pd.read_csv(combined_file, index_col='datetime', parse_dates=True)
-                last_timestamp = existing_data.index.max()
-                start_time = pd.to_datetime(last_timestamp) + pd.Timedelta(seconds=timeframe_to_sec(timeframe))
-            else:
-                existing_data = pd.DataFrame()
+            # Check for the last record in the database
+            cur.execute("""
+                SELECT MAX(datetime) FROM candles 
+                WHERE symbol = %s AND timeframe = %s
+            """, (symbol, timeframe))
+            last_record = cur.fetchone()
+            if last_record[0]:
+                start_time = last_record[0] + datetime.timedelta(seconds=timeframe_to_sec(timeframe))
+                print(f"Resuming from last timestamp: {start_time}")
 
             data = get_historical_data(symbol, timeframe, start_time, end_time)
             data['symbol'] = symbol  # Add a column for the symbol
-            combined_dataframe = pd.concat([existing_data, data])
 
-        # Remove duplicates by keeping the most recent entries
-        combined_dataframe = combined_dataframe[~combined_dataframe.index.duplicated(keep='last')]
+            # Prepare data for insertion
+            records = [
+                (row.symbol, timeframe, row.name, row['open'], row['high'], row['low'], row['close'], row['volume'])
+                for row in data.itertuples()
+            ]
 
-        # Save the combined data to CSV
-        combined_dataframe.to_csv(combined_file)
-        print(f"Combined data for {timeframe} saved to: {combined_file}")
+            if records:
+                # Insert new records
+                execute_values(cur, """
+                    INSERT INTO candles (symbol, timeframe, datetime, open, high, low, close, volume) 
+                    VALUES %s 
+                    ON CONFLICT (symbol, timeframe, datetime) DO NOTHING
+                """, records)
+                print(f"Inserted {len(records)} records for {symbol} with {timeframe} timeframe.")
+
+    conn.commit()
+    cur.close()
+    conn.close()
 
 # Schedule task to run every minute
 schedule.every(1).minutes.do(fetch_and_save_data)
