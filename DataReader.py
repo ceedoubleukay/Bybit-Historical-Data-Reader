@@ -6,7 +6,7 @@ import schedule
 import time
 from dotenv import load_dotenv
 from ccxt.base.errors import RequestTimeout
-from supabase_py import create_client
+from supabase import create_client, Client
 import logging
 
 # Configure logging
@@ -20,11 +20,11 @@ if os.path.exists(dotenv_path):
 # Initialize Supabase client
 supabase_url = os.getenv('SUPABASE_URL')
 supabase_key = os.getenv('SUPABASE_SERVICE_KEY')
-supabase = create_client(supabase_url, supabase_key)
+supabase: Client = create_client(supabase_url, supabase_key)
 
 symbols = ['BTC/USDT']  # List of symbols to fetch
-timeframes = ['1m']  # List of all possible timeframes to fetch
-start_year = 2020
+timeframes = ['1M']  # List of all possible timeframes to fetch
+start_year = 2024
 
 # Function to convert timeframe to seconds
 def timeframe_to_sec(timeframe):
@@ -103,18 +103,27 @@ def fetch_and_save_data():
 
             # Prepare data for insertion
             records = [
-                {'symbol': symbol, 'timeframe': timeframe, 'datetime': row.name,
-                 'open': row['open'], 'high': row['high'], 'low': row['low'], 'close': row['close'], 'volume': row['volume']}
+                {
+                    'symbol': symbol, 
+                    'timeframe': timeframe, 
+                    'datetime': row.Index.strftime('%Y-%m-%d %H:%M:%S'),
+                    'open': row.open, 
+                    'high': row.high, 
+                    'low': row.low, 
+                    'close': row.close, 
+                    'volume': row.volume
+                }
                 for row in data.itertuples()
             ]
 
             if records:
-                # Insert new records into Supabase
-                response = supabase.table('candles').upsert(records, returning='minimal')
-                if response.status_code == 200:
+                try:
+                    # Insert new records into Supabase
+                    logging.info(f"Inserting {len(records)} records into Supabase.")
+                    response = supabase.table('candles').insert(records).execute()
                     logging.info(f"Inserted {len(records)} records for {symbol} with {timeframe} timeframe.")
-                else:
-                    logging.error(f"Failed to insert records for {symbol} with {timeframe} timeframe. Status code: {response.status_code}")
+                except Exception as e:
+                    logging.error(f"Failed to insert records for {symbol} with {timeframe} timeframe: {e}")
 
 # Schedule task to run every minute
 schedule.every(1).second.do(fetch_and_save_data)
