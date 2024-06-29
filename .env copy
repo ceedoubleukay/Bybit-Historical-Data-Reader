@@ -1,7 +1,9 @@
-DB_NAME=your_database
-DB_USER=your_user
-DB_PASSWORD=your_password
-DB_HOST=your_host
-DB_PORT=your_port
-API_KEY=''
-API_SECRET=''
+DB_NAME=bybit
+DB_USER=ceewrld
+DB_PASSWORD=uifWKXjK2c
+DB_HOST=db
+DB_PORT=5432
+API_KEY=TKU2zM61ZhGo0v8jRe
+API_SECRET=A8kaB7uwCPuUDPSequNzpQYZnXNJjjSC0PAA
+SUPABASE_URL=https://cnimlogtgdyorxodehky.supabase.co
+SUPABASE_SERVICE_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImNuaW1sb2d0Z2R5b3J4b2RlaGt5Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3MTk2MzY4OTgsImV4cCI6MjAzNTIxMjg5OH0.Vezigz52dhyoH0BQbiB6SqbxslXJOZiZWf8Vou6opuQ
