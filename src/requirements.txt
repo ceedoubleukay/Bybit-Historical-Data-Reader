@@ -1,7 +1,0 @@
-aiohttp
-asyncpg
-loguru
-pydantic
-python-dotenv
-rich
-websockets

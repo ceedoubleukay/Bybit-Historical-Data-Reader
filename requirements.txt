@@ -1,0 +1,10 @@
+aiohttp==3.9.5
+loguru==0.7.2
+pandas==2.2.2
+pydantic==2.8.0
+pydantic_settings==2.3.4
+python-dotenv==1.0.1
+python_dateutil==2.9.0.post0
+rich==13.7.1
+supabase==2.5.1
+websockets==12.0

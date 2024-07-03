@@ -8,6 +8,10 @@ from rich.progress import Progress
 
 from config import Config
 
+def is_valid_timeframe(timeframe):
+    valid_timeframes = {'1', '3', '5', '15', '30', '60', '120', '240', '360', '720', 'D', 'W', 'M'}
+    return timeframe in valid_timeframes
+
 async def create_schema(supabase: Client):
     supabase.table('candles').insert({
         'symbol': 'temp',
@@ -45,6 +49,10 @@ async def fetch_klines(session, symbol, interval, start_time, end_time, config: 
             return []
 
 async def upsert_klines(supabase: Client, klines, symbol, timeframe):
+    if not is_valid_timeframe(timeframe):
+        logger.error(f"Invalid timeframe: {timeframe}. Cannot upsert data.")
+        return
+
     data = [
         {
             'symbol': symbol,
@@ -71,6 +79,10 @@ async def upsert_klines(supabase: Client, klines, symbol, timeframe):
         logger.error(f"Error upserting klines to the database: {e}")
 
 async def upsert_klines_websocket(supabase: Client, klines, symbol, timeframe):
+    if not is_valid_timeframe(timeframe):
+        logger.error(f"Invalid timeframe: {timeframe}. Cannot upsert data.")
+        return
+
     data = [
         {
             'symbol': symbol,
@@ -111,6 +123,10 @@ async def fetch_initial_data(symbol, timeframes, start_date, config, batch_size=
     end_time = datetime.datetime.now()
 
     for timeframe in timeframes:
+        if not is_valid_timeframe(timeframe):
+            logger.error(f"Invalid timeframe: {timeframe}. Skipping...")
+            continue
+
         logger.debug(f"Checking for existing data in the database for timeframe {timeframe}...")
         existing_data_response = supabase.table('candles').select('datetime').eq('symbol', symbol).eq('timeframe', timeframe).order('datetime', desc=True).limit(1).execute()
         existing_data = existing_data_response.data

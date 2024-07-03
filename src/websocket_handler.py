@@ -19,6 +19,14 @@ from dashboard import create_dashboard
 
 console = Console()
 
+def convert_timeframe_for_bybit(timeframe):
+    conversions = {
+        '1D': 'D',
+        '1W': 'W',
+        '1M': 'M'
+    }
+    return conversions.get(timeframe, timeframe)
+
 async def create_ws_connection(url):
     while True:
         try:
@@ -30,13 +38,23 @@ async def create_ws_connection(url):
             await asyncio.sleep(5)
 
 async def subscribe_to_kline(ws, symbol, timeframe):
+    bybit_timeframe = convert_timeframe_for_bybit(timeframe)
     subscribe_message = {
         "op": "subscribe",
-        "args": [f"kline.{timeframe}.{symbol}"]
+        "args": [f"kline.{bybit_timeframe}.{symbol}"]
     }
     await ws.send(json.dumps(subscribe_message))
     logger.debug(f"Sent subscription message: {subscribe_message}")
-    logger.debug(f"Subscribed to kline stream for {symbol} ({timeframe})")
+    
+    # Wait for and handle the subscription response
+    response = await ws.recv()
+    response_data = json.loads(response)
+    
+    if response_data.get('success'):
+        logger.debug(f"Successfully subscribed to kline stream for {symbol} ({timeframe})")
+    else:
+        logger.warning(f"Failed to subscribe to kline stream for {symbol} ({timeframe}): {response_data.get('ret_msg')}")
+        # You might want to handle this failure, e.g., by retrying or skipping this timeframe
 
 async def handle_kline_message(message, pool, symbol, timeframe):
     try:

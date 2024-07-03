@@ -7,7 +7,7 @@ from supabase import create_client
 from datetime import datetime
 from websocket_handler import start_websocket_connections
 from config import load_config
-from data_fetcher import fetch_initial_data
+from data_fetcher import fetch_initial_data, is_valid_timeframe
 from test_data_gaps import run_gap_test_and_fill
 
 console = Console()
@@ -31,25 +31,51 @@ def setup_logger(log_level):
         diagnose=True,
     )
 
-async def main():
-    parser = argparse.ArgumentParser(description='Bybit Historical Data Reader')
+def create_parser():
+    parser = argparse.ArgumentParser(
+        description='Bybit Historical Data Reader',
+        formatter_class=argparse.RawDescriptionHelpFormatter,
+        epilog='''
+Examples:
+  # Fetch initial data for BTCUSDT on 1-minute timeframe
+  python src/main.py --symbol BTCUSDT --timeframes 1 --fetch-initial-data
+
+  # Start websocket connection for ETHUSDT on 5 and 15-minute timeframes
+  python src.main.py --symbol ETHUSDT --timeframes 5,15
+
+  # Test for data gaps in Supabase for BTCUSDT
+  python src.main.py --symbol BTCUSDT --timeframes 1,5,15 --test-gaps --start-date 2023-01-01
+        '''
+    )
+    
     parser.add_argument('--symbol', type=str, help='Trading symbol (e.g., BTCUSDT)', default='BTCUSDT')
-    parser.add_argument('--timeframes', type=str, help='Comma-separated timeframes (e.g., 1,5,15)', default='1')
-    parser.add_argument('--start-date', type=str, help='Start date (e.g., 2024-07-01)', default='2024-07-01')
+    parser.add_argument('--timeframes', type=str, help='Comma-separated timeframes in minutes or D, W, M (e.g., 1,5,15,D,W)', default='1')
+    parser.add_argument('--start-date', type=str, help='Start date (format: YYYY-MM-DD)', default='2024-07-01')
     parser.add_argument('--fetch-initial-data', action='store_true', help='Fetch initial data and create schema')
-    parser.add_argument('--log-level', type=str, help='Log level (e.g., DEBUG, INFO, WARNING, ERROR)', default='INFO')
+    parser.add_argument('--log-level', type=str, choices=['DEBUG', 'INFO', 'WARNING', 'ERROR'], help='Log level', default='INFO')
     parser.add_argument("--batch-size", type=int, default=1440, help="Batch size in minutes (default: 1440)")
     parser.add_argument("--test-gaps", action='store_true', help="Test for data gaps in Supabase")
-    parser.add_argument("--end-date", type=str, help="End date for gap testing (default: current date)", default=None)
-    args = parser.parse_args()
+    parser.add_argument("--end-date", type=str, help="End date for gap testing (format: YYYY-MM-DD, default: current date)", default=None)
+    
+    return parser
 
+async def async_main(args):
     setup_logger(args.log_level)
     
     config = load_config()
     supabase = create_client(config.SUPABASE_URL, config.SUPABASE_SERVICE_KEY)
 
-    # Split the timeframes string into a list
-    timeframes = [tf.strip() for tf in args.timeframes.split(',')]
+    logger.debug(f"Original timeframes from args: {args.timeframes}")
+    timeframes = [tf.strip().upper() for tf in args.timeframes.split(',')]
+    logger.debug(f"Processed timeframes after split and strip: {timeframes}")
+
+    # Validate timeframes using a centralized utility function
+    timeframes = [tf for tf in timeframes if is_valid_timeframe(tf)]
+    logger.debug(f"Validated timeframes: {timeframes}")
+
+    if not timeframes:
+        logger.error("No valid timeframes provided.")
+        return
 
     if args.test_gaps:
         end_date = args.end_date or datetime.now().isoformat()
@@ -69,15 +95,17 @@ async def main():
         except KeyboardInterrupt:
             logger.info("Received keyboard interrupt, shutting down...")
         finally:
-            # Cancel all running tasks
             tasks = [t for t in asyncio.all_tasks() if t is not asyncio.current_task()]
             [task.cancel() for task in tasks]
             await asyncio.gather(*tasks, return_exceptions=True)
             logger.info("All tasks have been cancelled")
 
-if __name__ == "__main__":
+def main():
+    parser = create_parser()
+    args = parser.parse_args()
+
     loop = asyncio.get_event_loop()
-    main_task = asyncio.ensure_future(main())
+    main_task = asyncio.ensure_future(async_main(args))
     
     # Add signal handlers
     for signame in ('SIGINT', 'SIGTERM'):
@@ -88,6 +116,11 @@ if __name__ == "__main__":
         loop.run_until_complete(main_task)
     except asyncio.CancelledError:
         pass
+    except Exception as e:
+        logger.error(f"An unexpected error occurred: {e}")
     finally:
         loop.close()
         logger.info("Event loop closed")
+
+if __name__ == "__main__":
+    main()
