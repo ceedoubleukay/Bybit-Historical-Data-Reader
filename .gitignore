@@ -1,0 +1,9 @@
+
+*.pyc
+src/.env
+src/__pycache__/config.cpython-310.pyc
+src/__pycache__/dashboard.cpython-310.pyc
+src/__pycache__/data_fetcher.cpython-310.pyc
+src/__pycache__/test_data_gaps.cpython-310.pyc
+src/__pycache__/websocket_handler.cpython-310.pyc
+/ta-lib
