@@ -42,8 +42,9 @@ def create_dashboard(symbols_data):
           str(kline['low']),
           str(kline['close']),
           str(kline['volume']),
+          f"{kline['rsi']:.2f}" if kline['rsi'] is not None else 'NaN',
           # Add the RSI value to the row
-          str(rsi) if rsi is not None else "NaN",  # Handle potential missing RSI values
+          # str(rsi) if rsi is not None else "NaN",  # Handle potential missing RSI values
         )
       else:
         table.add_row(str(symbol), str(timeframe), health_status, "", "", "", "", "", "")

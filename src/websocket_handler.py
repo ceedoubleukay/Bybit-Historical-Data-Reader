@@ -9,13 +9,13 @@ from rich.live import Live
 from rich.console import Console
 from rich.layout import Layout
 from supabase import create_client
-from config import Config
 from websockets import exceptions as websockets_exceptions
 from data_fetcher import fetch_klines, upsert_klines, upsert_klines_websocket
 from test_data_gaps import get_available_timeframes
 from datetime import datetime, timedelta
 from dateutil.parser import parse as parse_date
 from dashboard import create_dashboard
+from indicators import calculate_rsi  # Import the RSI function from your indicators.py
 
 console = Console()
 
@@ -49,7 +49,8 @@ async def handle_kline_message(message, pool, symbol, timeframe):
                 'high': float(kline['high']),
                 'low': float(kline['low']),
                 'close': float(kline['close']),
-                'volume': float(kline['volume'])
+                'volume': float(kline['volume']),
+                'rsi': None  # We'll calculate this later
             }
             
             # Check if the kline data is for a completed candle
@@ -63,6 +64,37 @@ async def handle_kline_message(message, pool, symbol, timeframe):
     except Exception as e:
         logger.error(f"Error parsing kline message: {e}")
     return None
+
+async def update_rsi(symbol, timeframe, kline_data, config, session):
+    try:
+        # Fetch recent data (assuming fetch_klines retrieves historical data)
+        end_time = datetime.now()
+        delta = timedelta(minutes=int(timeframe) * 50)  # Adjust for desired period
+        start_time = end_time - delta
+        recent_klines = await fetch_klines(session, symbol, timeframe, start_time, end_time, config)
+
+        # Process fetched data
+        if recent_klines and isinstance(recent_klines, list):
+            # Extract closing prices from recent klines
+            closes = [float(kline[4]) for kline in recent_klines]
+
+            # Add the most recent close price from kline_data (optional)
+            closes.append(kline_data['close'])
+
+            # Calculate RSI using your function
+            rsi_values = calculate_rsi(closes)
+
+            # Update the kline_data with the calculated RSI
+            kline_data['rsi'] = rsi_values[-1] if len(rsi_values) > 0 else None
+
+        else:
+            logger.warning(f"No valid recent klines data received for {symbol} {timeframe}")
+
+    except Exception as e:
+        logger.error(f"Error calculating RSI for {symbol} {timeframe}: {e}")
+        kline_data['rsi'] = None
+
+    return kline_data
 
 async def fetch_missing_data(session, pool, symbol, timeframe, last_timestamp, config):
     end_time = datetime.now()
@@ -112,26 +144,28 @@ async def fill_data_gaps(supabase, symbol, start_date, end_date, timeframes, con
             # Calculate the timedelta based on the timeframe
             if isinstance(timeframe, int):  # Directly use integer values
                 delta = timedelta(minutes=timeframe)
-            elif timeframe == '1W':
+            elif timeframe == 'W':
                 delta = timedelta(weeks=1)
-            elif timeframe == '1M':
+            elif timeframe == 'M':
                 delta = timedelta(days=30)  # Approximation
             elif timeframe.endswith('m'):
-                delta = timedelta(minutes(int(timeframe[:-1])))
+                delta = timedelta(minutes=int(timeframe[:-1]))
             elif timeframe.endswith('h'):
-                delta = timedelta(hours(int(timeframe[:-1])))
-            elif timeframe.endswith('d'):
-                delta = timedelta(days(int(timeframe[:-1])))
+                delta = timedelta(hours=int(timeframe[:-1]))
+            elif timeframe == 'D':
+                delta = timedelta(days=1)  # Fix for daily timeframe
             else:
                 logger.warning(f"Unsupported timeframe: {timeframe}")
                 continue
 
 async def check_data_health(pool, symbol, timeframe, start_date, end_date, config):
     try:
-        # Convert start_date and end_date to datetime objects if they're strings
-        start_date = parse_date(start_date) if isinstance(start_date, str) else start_date
-        end_date = parse_date(end_date) if isinstance(end_date, str) else end_date
-        
+        try:
+            start_date = parse_date(start_date) if isinstance(start_date, str) else start_date
+            end_date = parse_date(end_date) if isinstance(end_date, str) else end_date
+        except ValueError:
+            logger.warning(f"Invalid date format for start_date or end_date. Using defaults.")
+            # Set default values or handle the error differently
         await fill_data_gaps(pool, symbol, start_date.isoformat(), end_date.isoformat(), [timeframe], config)
         return True
     except Exception as e:
@@ -140,7 +174,7 @@ async def check_data_health(pool, symbol, timeframe, start_date, end_date, confi
         logger.debug(f"Error traceback: {traceback.format_exc()}")
         return False
 
-async def start_websocket_connections(symbols: list, timeframes: list, start_date: str, config: Config):
+async def start_websocket_connections(symbols: list, timeframes: list, start_date: str, config):
     pool = create_client(config.SUPABASE_URL, config.SUPABASE_SERVICE_KEY)
     
     async with aiohttp.ClientSession() as session:
@@ -169,6 +203,9 @@ async def start_websocket_connections(symbols: list, timeframes: list, start_dat
                             kline = await handle_kline_message(message, pool, symbol, current_timeframe)
                         
                             if kline:
+                                # Calculate and update RSI
+                                kline = await update_rsi(symbol, current_timeframe, kline, config, session)
+                                
                                 # Check data health
                                 end_date = datetime.now()
                                 is_healthy = await check_data_health(pool, symbol, current_timeframe, parse_date(start_date), end_date, config)

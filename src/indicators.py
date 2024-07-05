@@ -16,7 +16,12 @@ def calculate_rsi(closes, timeperiod=14):
   """
   # Convert list to NumPy array
   closing_prices_array = np.array(closes)
-  logger.info(closing_prices_array)
+  # Print the timeframe before returning RSI (optional)
+  # if timeframe:
+  #     print(f"RSI for timeframe: {timeframe}")
+  # else:
+  #   print("No timeframe provided for RSI calculations")
+
   return ta.RSI(closing_prices_array, timeperiod)
 
 
