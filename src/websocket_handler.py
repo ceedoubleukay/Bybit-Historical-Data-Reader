@@ -15,7 +15,8 @@ from test_data_gaps import get_available_timeframes
 from datetime import datetime, timedelta
 from dateutil.parser import parse as parse_date
 from dashboard import create_dashboard
-from indicators import calculate_rsi  # Import the RSI function from your indicators.py
+from indicators import calculate_rsi, calculate_macd, calculate_bollinger_bands, calculate_sma, calculate_fibonacci_retracement  # Import the Fibonacci function
+import numpy as np  # Import numpy for NaN handling
 
 console = Console()
 
@@ -65,7 +66,7 @@ async def handle_kline_message(message, pool, symbol, timeframe):
         logger.error(f"Error parsing kline message: {e}")
     return None
 
-async def update_rsi(symbol, timeframe, kline_data, config, session):
+async def update_indicators(symbol, timeframe, kline_data, config, session):
     try:
         # Fetch recent data (assuming fetch_klines retrieves historical data)
         end_time = datetime.now()
@@ -77,22 +78,108 @@ async def update_rsi(symbol, timeframe, kline_data, config, session):
         if recent_klines and isinstance(recent_klines, list):
             # Extract closing prices from recent klines
             closes = [float(kline[4]) for kline in recent_klines]
+            highs = [float(kline[2]) for kline in recent_klines]
+            lows = [float(kline[3]) for kline in recent_klines]
 
             # Add the most recent close price from kline_data (optional)
             closes.append(kline_data['close'])
+            highs.append(kline_data['high'])
+            lows.append(kline_data['low'])
+
+            # Debug: Print closing prices
+            #print(f"Closing prices for {symbol} {timeframe}: {closes}")
 
             # Calculate RSI using your function
             rsi_values = calculate_rsi(closes)
+            kline_data['rsi'] = rsi_values[-1] if len(rsi_values) > 0 else np.nan
 
-            # Update the kline_data with the calculated RSI
-            kline_data['rsi'] = rsi_values[-1] if len(rsi_values) > 0 else None
+            # Calculate MACD using your function
+            macd_line, signal_line, macd_histogram = calculate_macd(closes)
+
+            # Debug: Print MACD values
+            #print(f"MACD for {symbol} {timeframe}: macd_line={macd_line}, signal_line={signal_line}, histogram={macd_histogram}")
+
+            kline_data['macd'] = {
+                'macd_line': macd_line[-1] if len(macd_line) > 0 else np.nan,
+                'signal_line': signal_line[-1] if len(signal_line) > 0 else np.nan,
+                'histogram': macd_histogram[-1] if len(macd_histogram) > 0 else np.nan
+            }
+
+            # Calculate Bollinger Bands using your function
+            middle_band, upper_band, lower_band = calculate_bollinger_bands(closes)
+
+            # Debug: Print Bollinger Bands values
+            #print(f"Bollinger Bands for {symbol} {timeframe}: middle_band={middle_band}, upper_band={upper_band}, lower_band={lower_band}")
+
+            kline_data['bollinger_bands'] = {
+                'middle_band': middle_band[-1] if len(middle_band) > 0 else np.nan,
+                'upper_band': upper_band[-1] if len(upper_band) > 0 else np.nan,
+                'lower_band': lower_band[-1] if len(lower_band) > 0 else np.nan
+            }
+
+            # Calculate SMA using your function
+            sma_values = calculate_sma(closes)
+
+            # Debug: Print SMA values
+            #print(f"SMA for {symbol} {timeframe}: {sma_values}")
+
+            kline_data['sma'] = sma_values[-1] if len(sma_values) > 0 else np.nan
+
+            # Calculate Fibonacci Retracement using your function
+            high = max(highs)
+            low = min(lows)
+            fibonacci_levels = calculate_fibonacci_retracement(high, low)
+
+            # Debug: Print Fibonacci levels
+            #print(f"Fibonacci levels for {symbol} {timeframe}: {fibonacci_levels}")
+
+            kline_data['fibonacci'] = fibonacci_levels
 
         else:
             logger.warning(f"No valid recent klines data received for {symbol} {timeframe}")
+            kline_data['rsi'] = np.nan
+            kline_data['macd'] = {
+                'macd_line': np.nan,
+                'signal_line': np.nan,
+                'histogram': np.nan
+            }
+            kline_data['bollinger_bands'] = {
+                'middle_band': np.nan,
+                'upper_band': np.nan,
+                'lower_band': np.nan
+            }
+            kline_data['sma'] = np.nan
+            kline_data['fibonacci'] = {
+                '0.0%': np.nan,
+                '23.6%': np.nan,
+                '38.2%': np.nan,
+                '50.0%': np.nan,
+                '61.8%': np.nan,
+                '100.0%': np.nan
+            }
 
     except Exception as e:
-        logger.error(f"Error calculating RSI for {symbol} {timeframe}: {e}")
-        kline_data['rsi'] = None
+        logger.error(f"Error calculating indicators for {symbol} {timeframe}: {e}")
+        kline_data['rsi'] = np.nan
+        kline_data['macd'] = {
+            'macd_line': np.nan,
+            'signal_line': np.nan,
+            'histogram': np.nan
+        }
+        kline_data['bollinger_bands'] = {
+            'middle_band': np.nan,
+            'upper_band': np.nan,
+            'lower_band': np.nan
+        }
+        kline_data['sma'] = np.nan
+        kline_data['fibonacci'] = {
+            '0.0%': np.nan,
+            '23.6%': np.nan,
+            '38.2%': np.nan,
+            '50.0%': np.nan,
+            '61.8%': np.nan,
+            '100.0%': np.nan
+        }
 
     return kline_data
 
@@ -203,8 +290,8 @@ async def start_websocket_connections(symbols: list, timeframes: list, start_dat
                             kline = await handle_kline_message(message, pool, symbol, current_timeframe)
                         
                             if kline:
-                                # Calculate and update RSI
-                                kline = await update_rsi(symbol, current_timeframe, kline, config, session)
+                                # Calculate and update RSI, MACD, Bollinger Bands, and SMA
+                                kline = await update_indicators(symbol, current_timeframe, kline, config, session)
                                 
                                 # Check data health
                                 end_date = datetime.now()
