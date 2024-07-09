@@ -51,11 +51,31 @@ async def handle_kline_message(message, pool, symbol, timeframe):
                 'low': float(kline['low']),
                 'close': float(kline['close']),
                 'volume': float(kline['volume']),
-                'rsi': None  # We'll calculate this later
+                'rsi': None,  # We'll calculate this later
+                'macd': {
+                    'macd_line': None,
+                    'signal_line': None,
+                    'histogram': None
+                },
+                'bollinger_bands': {
+                    'middle_band': None,
+                    'upper_band': None,
+                    'lower_band': None
+                },
+                'sma': None,
+                'fibonacci': {
+                    '0.0%': None,
+                    '23.6%': None,
+                    '38.2%': None,
+                    '50.0%': None,
+                    '61.8%': None,
+                    '100.0%': None
+                }
             }
             
             # Check if the kline data is for a completed candle
             if kline['confirm']:
+                kline_data = await update_indicators(symbol, timeframe, kline_data, config, session)
                 await upsert_klines_websocket(pool, [kline_data], symbol, timeframe)
                 logger.debug(f"Upserted completed kline data for {symbol} ({timeframe})")
             
@@ -70,8 +90,17 @@ async def update_indicators(symbol, timeframe, kline_data, config, session):
     try:
         # Fetch recent data (assuming fetch_klines retrieves historical data)
         end_time = datetime.now()
-        delta = timedelta(minutes=int(timeframe) * 50)  # Adjust for desired period
-        start_time = end_time - delta
+        
+        # Get the delta for the timeframe
+        try:
+            delta = get_timeframe_delta(timeframe)
+        except ValueError as e:
+            logger.error(f"Error calculating indicators for {symbol} {timeframe}: {e}")
+            return kline_data
+
+        # Adjust delta to ensure sufficient data points (e.g., 50 periods)
+        adjusted_delta = delta * 50
+        start_time = end_time - adjusted_delta
         recent_klines = await fetch_klines(session, symbol, timeframe, start_time, end_time, config)
 
         # Process fetched data
@@ -86,19 +115,12 @@ async def update_indicators(symbol, timeframe, kline_data, config, session):
             highs.append(kline_data['high'])
             lows.append(kline_data['low'])
 
-            # Debug: Print closing prices
-            #print(f"Closing prices for {symbol} {timeframe}: {closes}")
-
             # Calculate RSI using your function
             rsi_values = calculate_rsi(closes)
             kline_data['rsi'] = rsi_values[-1] if len(rsi_values) > 0 else np.nan
 
             # Calculate MACD using your function
             macd_line, signal_line, macd_histogram = calculate_macd(closes)
-
-            # Debug: Print MACD values
-            #print(f"MACD for {symbol} {timeframe}: macd_line={macd_line}, signal_line={signal_line}, histogram={macd_histogram}")
-
             kline_data['macd'] = {
                 'macd_line': macd_line[-1] if len(macd_line) > 0 else np.nan,
                 'signal_line': signal_line[-1] if len(signal_line) > 0 else np.nan,
@@ -107,10 +129,6 @@ async def update_indicators(symbol, timeframe, kline_data, config, session):
 
             # Calculate Bollinger Bands using your function
             middle_band, upper_band, lower_band = calculate_bollinger_bands(closes)
-
-            # Debug: Print Bollinger Bands values
-            #print(f"Bollinger Bands for {symbol} {timeframe}: middle_band={middle_band}, upper_band={upper_band}, lower_band={lower_band}")
-
             kline_data['bollinger_bands'] = {
                 'middle_band': middle_band[-1] if len(middle_band) > 0 else np.nan,
                 'upper_band': upper_band[-1] if len(upper_band) > 0 else np.nan,
@@ -119,20 +137,12 @@ async def update_indicators(symbol, timeframe, kline_data, config, session):
 
             # Calculate SMA using your function
             sma_values = calculate_sma(closes)
-
-            # Debug: Print SMA values
-            #print(f"SMA for {symbol} {timeframe}: {sma_values}")
-
             kline_data['sma'] = sma_values[-1] if len(sma_values) > 0 else np.nan
 
             # Calculate Fibonacci Retracement using your function
             high = max(highs)
             low = min(lows)
             fibonacci_levels = calculate_fibonacci_retracement(high, low)
-
-            # Debug: Print Fibonacci levels
-            #print(f"Fibonacci levels for {symbol} {timeframe}: {fibonacci_levels}")
-
             kline_data['fibonacci'] = fibonacci_levels
 
         else:
@@ -215,6 +225,29 @@ async def maintain_connection(ws):
         except:
             break
         await asyncio.sleep(20)
+
+def get_timeframe_delta(timeframe):
+    # Ensure timeframe is an integer for calculations
+    if isinstance(timeframe, str) and timeframe.isdigit():
+        timeframe = int(timeframe)
+
+    # Calculate the timedelta based on the timeframe
+    if isinstance(timeframe, int):  # Directly use integer values
+        delta = timedelta(minutes=timeframe)
+    elif timeframe == 'W':
+        delta = timedelta(weeks=1)
+    elif timeframe == 'M':
+        delta = timedelta(days=30)  # Approximation
+    elif timeframe.endswith('m'):
+        delta = timedelta(minutes=int(timeframe[:-1]))
+    elif timeframe.endswith('h'):
+        delta = timedelta(hours=int(timeframe[:-1]))
+    elif timeframe == 'D':
+        delta = timedelta(days=1)  # Fix for daily timeframe
+    else:
+        raise ValueError(f"Unsupported timeframe: {timeframe}")
+
+    return delta
 
 async def fill_data_gaps(supabase, symbol, start_date, end_date, timeframes, config):
     logger.debug(f"Testing and filling data gaps in {symbol} from {start_date} to {end_date}")

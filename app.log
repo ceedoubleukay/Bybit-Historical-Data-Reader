@@ -20345,3 +20345,1057 @@ TypeError: 'Config' object does not support item assignment
 2024-07-08T18:33:28.511052+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
 2024-07-08T18:33:28.533988+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
 2024-07-08T18:33:29.943444+0930 INFO Event loop closed
+2024-07-09T14:00:07.862551+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': '3d60703a-2cc7-447a-b862-63d261220e97', 'req_id': '', 'op': 'subscribe'}
+2024-07-09T14:00:08.212509+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': '3d60703a-2cc7-447a-b862-63d261220e97', 'req_id': '', 'op': 'subscribe'}
+2024-07-09T14:00:08.354648+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': '3d60703a-2cc7-447a-b862-63d261220e97', 'req_id': '', 'op': 'subscribe'}
+2024-07-09T14:00:08.497364+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': '3d60703a-2cc7-447a-b862-63d261220e97', 'req_id': '', 'op': 'subscribe'}
+2024-07-09T14:00:08.641540+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': '3d60703a-2cc7-447a-b862-63d261220e97', 'req_id': '', 'op': 'subscribe'}
+2024-07-09T14:00:08.783513+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': '3d60703a-2cc7-447a-b862-63d261220e97', 'req_id': '', 'op': 'subscribe'}
+2024-07-09T14:00:09.132158+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': '3d60703a-2cc7-447a-b862-63d261220e97', 'req_id': '', 'op': 'subscribe'}
+2024-07-09T14:00:09.145019+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:00:09.157997+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': '3d60703a-2cc7-447a-b862-63d261220e97', 'req_id': '', 'op': 'subscribe'}
+2024-07-09T14:00:09.169479+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:00:09.183458+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': '3d60703a-2cc7-447a-b862-63d261220e97', 'req_id': '', 'op': 'subscribe'}
+2024-07-09T14:00:09.664624+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:00:09.677614+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:00:12.014139+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:00:12.038343+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:00:13.215873+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:00:13.240991+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:00:14.883079+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:00:14.906935+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:00:15.442733+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:00:15.860180+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:00:16.551346+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:00:16.575869+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:00:17.396464+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:00:17.827934+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:00:18.112107+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:00:18.138129+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:00:19.744881+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:00:19.803033+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:00:21.228840+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:00:21.258293+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:00:21.811679+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:00:21.871283+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:00:22.682876+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:00:22.708130+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:00:23.253817+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:00:23.280723+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:00:24.736849+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:00:24.762520+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:00:25.785529+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:00:25.811177+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:00:27.149825+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:00:27.173853+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:00:27.726060+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:00:27.750819+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:00:29.309748+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:00:29.334071+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:00:30.511923+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:00:30.538062+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:00:31.357074+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:00:31.382918+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:00:31.806389+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:00:31.830713+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:00:33.500125+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:00:33.524600+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:00:34.336650+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:00:34.362162+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:00:35.173483+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:00:35.800724+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:00:36.764265+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:00:36.788556+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:00:37.723173+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:00:37.747137+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:00:38.384706+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:00:38.412072+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:00:39.484780+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:00:39.509169+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:00:40.442672+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:00:40.468807+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:00:41.277346+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:00:41.302329+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:00:42.316635+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:00:42.341556+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:00:43.830072+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:00:43.855896+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:00:44.524198+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:00:44.546987+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:00:45.424565+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:00:45.448420+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:00:47.307925+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:00:47.332844+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:00:47.626995+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:00:47.651299+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:00:48.792642+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:00:48.819711+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:00:49.493226+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:00:49.517007+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:00:51.008748+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:00:51.032960+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:00:52.383756+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:00:52.408994+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:00:53.563547+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:00:53.590272+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:00:54.250692+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:00:54.275084+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:00:55.612804+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:00:55.637248+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:00:55.795256+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:00:56.222799+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:00:56.764569+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:00:56.812028+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:00:58.191776+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:00:58.217459+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:00:59.299460+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:00:59.327734+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:01:01.182529+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:01:01.207225+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:01:01.490559+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:01:01.514909+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:01:01.542602+0930 ERROR Error parsing kline message: name 'config' is not defined
+2024-07-09T14:01:02.691592+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:01:03.113952+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:01:04.326313+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:01:04.352245+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:01:04.771652+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:01:04.797329+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:01:05.603538+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:01:05.629217+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:01:07.626680+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:01:07.650025+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:01:08.089623+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:01:08.503475+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:01:09.519859+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:01:09.545148+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:01:10.638558+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:01:10.664165+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:01:11.597264+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:01:12.012826+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:01:13.107560+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:01:13.133372+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:01:13.566796+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:01:13.989608+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:01:14.406295+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:01:14.437427+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:01:15.296464+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:01:15.365205+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:01:16.434716+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:01:16.465133+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:01:18.088720+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:01:18.118399+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:01:18.753548+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:01:18.779156+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:01:19.732254+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:01:19.757608+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:01:21.271460+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:01:21.296418+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:01:22.095245+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:01:22.119611+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:01:22.531788+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:01:22.560414+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:01:24.311879+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:01:24.336175+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:01:25.292867+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:01:25.318680+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:01:26.126321+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:01:26.150423+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:01:27.875335+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:01:27.900789+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:01:29.370072+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:01:29.878383+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:01:31.739753+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:01:31.764976+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:01:33.738332+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:01:33.762550+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:01:34.651618+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:01:34.677535+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:01:35.614275+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:01:36.035755+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:01:36.580818+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:01:36.618622+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:01:37.646100+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:01:37.670542+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:01:38.605027+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:01:38.631085+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:01:39.445087+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:01:39.470184+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:01:40.149906+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:01:40.209163+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:01:40.815070+0930 INFO Event loop closed
+2024-07-09T14:02:25.965032+0930 WARNING Insufficient data for RSI calculation. Fetched 0 klines (needed at least 14)
+2024-07-09T14:02:25.966142+0930 WARNING No klines fetched for the period from 2024-07-09 14:01:00 to 2024-07-09 14:02:24.787923 for timeframe 5
+2024-07-09T14:02:33.018137+0930 WARNING Insufficient data for RSI calculation. Fetched 0 klines (needed at least 14)
+2024-07-09T14:02:33.019364+0930 WARNING No klines fetched for the period from 2024-07-04 15:00:00 to 2024-07-05 15:00:00 for timeframe 0
+2024-07-09T14:02:33.856609+0930 WARNING Insufficient data for RSI calculation. Fetched 0 klines (needed at least 14)
+2024-07-09T14:02:33.858172+0930 WARNING No klines fetched for the period from 2024-07-05 15:00:00 to 2024-07-06 15:00:00 for timeframe 0
+2024-07-09T14:02:34.492445+0930 WARNING Insufficient data for RSI calculation. Fetched 0 klines (needed at least 14)
+2024-07-09T14:02:34.493920+0930 WARNING No klines fetched for the period from 2024-07-06 15:00:00 to 2024-07-07 15:00:00 for timeframe 0
+2024-07-09T14:02:35.128577+0930 WARNING Insufficient data for RSI calculation. Fetched 0 klines (needed at least 14)
+2024-07-09T14:02:35.129649+0930 WARNING No klines fetched for the period from 2024-07-07 15:00:00 to 2024-07-08 15:00:00 for timeframe 0
+2024-07-09T14:02:35.763298+0930 WARNING Insufficient data for RSI calculation. Fetched 0 klines (needed at least 14)
+2024-07-09T14:02:35.764549+0930 WARNING No klines fetched for the period from 2024-07-08 15:00:00 to 2024-07-09 14:02:26.695759 for timeframe 0
+2024-07-09T14:02:37.327305+0930 WARNING Insufficient data for RSI calculation. Fetched 0 klines (needed at least 14)
+2024-07-09T14:02:37.328447+0930 WARNING No klines fetched for the period from 2024-07-04 14:30:00 to 2024-07-05 14:30:00 for timeframe 6
+2024-07-09T14:02:38.164671+0930 WARNING Insufficient data for RSI calculation. Fetched 0 klines (needed at least 14)
+2024-07-09T14:02:38.166040+0930 WARNING No klines fetched for the period from 2024-07-05 14:30:00 to 2024-07-06 14:30:00 for timeframe 6
+2024-07-09T14:02:39.004667+0930 WARNING Insufficient data for RSI calculation. Fetched 0 klines (needed at least 14)
+2024-07-09T14:02:39.005960+0930 WARNING No klines fetched for the period from 2024-07-06 14:30:00 to 2024-07-07 14:30:00 for timeframe 6
+2024-07-09T14:02:39.842191+0930 WARNING Insufficient data for RSI calculation. Fetched 0 klines (needed at least 14)
+2024-07-09T14:02:39.843408+0930 WARNING No klines fetched for the period from 2024-07-07 14:30:00 to 2024-07-08 14:30:00 for timeframe 6
+2024-07-09T14:02:40.473494+0930 WARNING Insufficient data for RSI calculation. Fetched 0 klines (needed at least 14)
+2024-07-09T14:02:40.474621+0930 WARNING No klines fetched for the period from 2024-07-08 14:30:00 to 2024-07-09 14:02:36.542349 for timeframe 6
+2024-07-09T14:02:41.726468+0930 WARNING Insufficient data for RSI calculation. Fetched 0 klines (needed at least 14)
+2024-07-09T14:02:41.727603+0930 WARNING No klines fetched for the period from 2024-07-04 14:30:00 to 2024-07-05 14:30:00 for timeframe 0
+2024-07-09T14:02:42.567054+0930 WARNING Insufficient data for RSI calculation. Fetched 0 klines (needed at least 14)
+2024-07-09T14:02:42.568519+0930 WARNING No klines fetched for the period from 2024-07-05 14:30:00 to 2024-07-06 14:30:00 for timeframe 0
+2024-07-09T14:02:43.404767+0930 WARNING Insufficient data for RSI calculation. Fetched 0 klines (needed at least 14)
+2024-07-09T14:02:43.405825+0930 WARNING No klines fetched for the period from 2024-07-06 14:30:00 to 2024-07-07 14:30:00 for timeframe 0
+2024-07-09T14:02:44.037004+0930 WARNING Insufficient data for RSI calculation. Fetched 0 klines (needed at least 14)
+2024-07-09T14:02:44.038175+0930 WARNING No klines fetched for the period from 2024-07-07 14:30:00 to 2024-07-08 14:30:00 for timeframe 0
+2024-07-09T14:02:44.873146+0930 WARNING Insufficient data for RSI calculation. Fetched 0 klines (needed at least 14)
+2024-07-09T14:02:44.874534+0930 WARNING No klines fetched for the period from 2024-07-08 14:30:00 to 2024-07-09 14:02:36.542349 for timeframe 0
+2024-07-09T14:02:46.903265+0930 WARNING Insufficient data for RSI calculation. Fetched 0 klines (needed at least 14)
+2024-07-09T14:02:46.904440+0930 WARNING No klines fetched for the period from 2024-07-04 13:30:00 to 2024-07-05 13:30:00 for timeframe 2
+2024-07-09T14:02:47.744824+0930 WARNING Insufficient data for RSI calculation. Fetched 0 klines (needed at least 14)
+2024-07-09T14:02:47.746032+0930 WARNING No klines fetched for the period from 2024-07-05 13:30:00 to 2024-07-06 13:30:00 for timeframe 2
+2024-07-09T14:02:48.581880+0930 WARNING Insufficient data for RSI calculation. Fetched 0 klines (needed at least 14)
+2024-07-09T14:02:48.583080+0930 WARNING No klines fetched for the period from 2024-07-06 13:30:00 to 2024-07-07 13:30:00 for timeframe 2
+2024-07-09T14:02:49.218045+0930 WARNING Insufficient data for RSI calculation. Fetched 0 klines (needed at least 14)
+2024-07-09T14:02:49.219219+0930 WARNING No klines fetched for the period from 2024-07-07 13:30:00 to 2024-07-08 13:30:00 for timeframe 2
+2024-07-09T14:02:50.057999+0930 WARNING Insufficient data for RSI calculation. Fetched 0 klines (needed at least 14)
+2024-07-09T14:02:50.059193+0930 WARNING No klines fetched for the period from 2024-07-08 13:30:00 to 2024-07-09 13:30:00 for timeframe 2
+2024-07-09T14:02:50.896958+0930 WARNING Insufficient data for RSI calculation. Fetched 0 klines (needed at least 14)
+2024-07-09T14:02:50.898223+0930 WARNING No klines fetched for the period from 2024-07-09 13:30:00 to 2024-07-09 14:02:45.654597 for timeframe 2
+2024-07-09T14:02:52.114098+0930 WARNING Insufficient data for RSI calculation. Fetched 0 klines (needed at least 14)
+2024-07-09T14:02:52.115359+0930 WARNING No klines fetched for the period from 2024-07-04 13:30:00 to 2024-07-05 13:30:00 for timeframe 0
+2024-07-09T14:02:52.752592+0930 WARNING Insufficient data for RSI calculation. Fetched 0 klines (needed at least 14)
+2024-07-09T14:02:52.753856+0930 WARNING No klines fetched for the period from 2024-07-05 13:30:00 to 2024-07-06 13:30:00 for timeframe 0
+2024-07-09T14:02:53.590253+0930 WARNING Insufficient data for RSI calculation. Fetched 0 klines (needed at least 14)
+2024-07-09T14:02:53.591487+0930 WARNING No klines fetched for the period from 2024-07-06 13:30:00 to 2024-07-07 13:30:00 for timeframe 0
+2024-07-09T14:02:54.474873+0930 WARNING Insufficient data for RSI calculation. Fetched 0 klines (needed at least 14)
+2024-07-09T14:02:54.476321+0930 WARNING No klines fetched for the period from 2024-07-07 13:30:00 to 2024-07-08 13:30:00 for timeframe 0
+2024-07-09T14:02:55.311273+0930 WARNING Insufficient data for RSI calculation. Fetched 0 klines (needed at least 14)
+2024-07-09T14:02:55.312475+0930 WARNING No klines fetched for the period from 2024-07-08 13:30:00 to 2024-07-09 13:30:00 for timeframe 0
+2024-07-09T14:02:56.155138+0930 WARNING Insufficient data for RSI calculation. Fetched 0 klines (needed at least 14)
+2024-07-09T14:02:56.156329+0930 WARNING No klines fetched for the period from 2024-07-09 13:30:00 to 2024-07-09 14:02:45.654597 for timeframe 0
+2024-07-09T14:02:57.533694+0930 WARNING Insufficient data for RSI calculation. Fetched 0 klines (needed at least 14)
+2024-07-09T14:02:57.534770+0930 WARNING No klines fetched for the period from 2024-07-04 13:30:00 to 2024-07-05 13:30:00 for timeframe 2
+2024-07-09T14:02:58.374808+0930 WARNING Insufficient data for RSI calculation. Fetched 0 klines (needed at least 14)
+2024-07-09T14:02:58.376467+0930 WARNING No klines fetched for the period from 2024-07-05 13:30:00 to 2024-07-06 13:30:00 for timeframe 2
+2024-07-09T14:02:59.214986+0930 WARNING Insufficient data for RSI calculation. Fetched 0 klines (needed at least 14)
+2024-07-09T14:02:59.216200+0930 WARNING No klines fetched for the period from 2024-07-06 13:30:00 to 2024-07-07 13:30:00 for timeframe 2
+2024-07-09T14:02:59.847672+0930 WARNING Insufficient data for RSI calculation. Fetched 0 klines (needed at least 14)
+2024-07-09T14:02:59.848918+0930 WARNING No klines fetched for the period from 2024-07-07 13:30:00 to 2024-07-08 13:30:00 for timeframe 2
+2024-07-09T14:03:00.690598+0930 WARNING Insufficient data for RSI calculation. Fetched 0 klines (needed at least 14)
+2024-07-09T14:03:00.691831+0930 WARNING No klines fetched for the period from 2024-07-08 13:30:00 to 2024-07-09 13:30:00 for timeframe 2
+2024-07-09T14:03:01.527692+0930 WARNING Insufficient data for RSI calculation. Fetched 0 klines (needed at least 14)
+2024-07-09T14:03:01.528941+0930 WARNING No klines fetched for the period from 2024-07-09 13:30:00 to 2024-07-09 14:02:56.979506 for timeframe 2
+2024-07-09T14:03:02.802637+0930 WARNING Insufficient data for RSI calculation. Fetched 0 klines (needed at least 14)
+2024-07-09T14:03:02.804067+0930 WARNING No klines fetched for the period from 2024-07-04 13:30:00 to 2024-07-05 13:30:00 for timeframe 4
+2024-07-09T14:03:03.641785+0930 WARNING Insufficient data for RSI calculation. Fetched 0 klines (needed at least 14)
+2024-07-09T14:03:03.643156+0930 WARNING No klines fetched for the period from 2024-07-05 13:30:00 to 2024-07-06 13:30:00 for timeframe 4
+2024-07-09T14:03:04.484095+0930 WARNING Insufficient data for RSI calculation. Fetched 0 klines (needed at least 14)
+2024-07-09T14:03:04.485361+0930 WARNING No klines fetched for the period from 2024-07-06 13:30:00 to 2024-07-07 13:30:00 for timeframe 4
+2024-07-09T14:03:05.115694+0930 WARNING Insufficient data for RSI calculation. Fetched 0 klines (needed at least 14)
+2024-07-09T14:03:05.116780+0930 WARNING No klines fetched for the period from 2024-07-07 13:30:00 to 2024-07-08 13:30:00 for timeframe 4
+2024-07-09T14:03:05.955354+0930 WARNING Insufficient data for RSI calculation. Fetched 0 klines (needed at least 14)
+2024-07-09T14:03:05.956687+0930 WARNING No klines fetched for the period from 2024-07-08 13:30:00 to 2024-07-09 13:30:00 for timeframe 4
+2024-07-09T14:03:06.795977+0930 WARNING Insufficient data for RSI calculation. Fetched 0 klines (needed at least 14)
+2024-07-09T14:03:06.797451+0930 WARNING No klines fetched for the period from 2024-07-09 13:30:00 to 2024-07-09 14:02:56.979506 for timeframe 4
+2024-07-09T14:03:08.007274+0930 WARNING Insufficient data for RSI calculation. Fetched 0 klines (needed at least 14)
+2024-07-09T14:03:08.008523+0930 WARNING No klines fetched for the period from 2024-07-04 13:30:00 to 2024-07-05 13:30:00 for timeframe 0
+2024-07-09T14:03:08.846405+0930 WARNING Insufficient data for RSI calculation. Fetched 0 klines (needed at least 14)
+2024-07-09T14:03:08.847930+0930 WARNING No klines fetched for the period from 2024-07-05 13:30:00 to 2024-07-06 13:30:00 for timeframe 0
+2024-07-09T14:03:09.692762+0930 WARNING Insufficient data for RSI calculation. Fetched 0 klines (needed at least 14)
+2024-07-09T14:03:09.693951+0930 WARNING No klines fetched for the period from 2024-07-06 13:30:00 to 2024-07-07 13:30:00 for timeframe 0
+2024-07-09T14:03:10.536850+0930 WARNING Insufficient data for RSI calculation. Fetched 0 klines (needed at least 14)
+2024-07-09T14:03:10.538020+0930 WARNING No klines fetched for the period from 2024-07-07 13:30:00 to 2024-07-08 13:30:00 for timeframe 0
+2024-07-09T14:03:11.375335+0930 WARNING Insufficient data for RSI calculation. Fetched 0 klines (needed at least 14)
+2024-07-09T14:03:11.376484+0930 WARNING No klines fetched for the period from 2024-07-08 13:30:00 to 2024-07-09 13:30:00 for timeframe 0
+2024-07-09T14:03:12.208714+0930 WARNING Insufficient data for RSI calculation. Fetched 0 klines (needed at least 14)
+2024-07-09T14:03:12.210087+0930 WARNING No klines fetched for the period from 2024-07-09 13:30:00 to 2024-07-09 14:02:56.979506 for timeframe 0
+2024-07-09T14:03:13.792790+0930 WARNING Insufficient data for RSI calculation. Fetched 1 klines (needed at least 14)
+2024-07-09T14:03:13.794145+0930 WARNING No klines fetched for the period from 2024-07-04 09:31:00 to 2024-07-05 09:31:00 for timeframe D
+2024-07-09T14:03:14.437735+0930 WARNING Insufficient data for RSI calculation. Fetched 1 klines (needed at least 14)
+2024-07-09T14:03:14.439291+0930 WARNING No klines fetched for the period from 2024-07-05 09:31:00 to 2024-07-06 09:31:00 for timeframe D
+2024-07-09T14:03:15.271941+0930 WARNING Insufficient data for RSI calculation. Fetched 1 klines (needed at least 14)
+2024-07-09T14:03:15.273120+0930 WARNING No klines fetched for the period from 2024-07-06 09:31:00 to 2024-07-07 09:31:00 for timeframe D
+2024-07-09T14:03:16.107296+0930 WARNING Insufficient data for RSI calculation. Fetched 1 klines (needed at least 14)
+2024-07-09T14:03:16.108526+0930 WARNING No klines fetched for the period from 2024-07-07 09:31:00 to 2024-07-08 09:31:00 for timeframe D
+2024-07-09T14:03:16.946812+0930 WARNING Insufficient data for RSI calculation. Fetched 1 klines (needed at least 14)
+2024-07-09T14:03:16.948039+0930 WARNING No klines fetched for the period from 2024-07-08 09:31:00 to 2024-07-09 09:31:00 for timeframe D
+2024-07-09T14:03:17.784266+0930 WARNING Insufficient data for RSI calculation. Fetched 0 klines (needed at least 14)
+2024-07-09T14:03:17.785989+0930 WARNING No klines fetched for the period from 2024-07-09 09:31:00 to 2024-07-09 14:03:12.983841 for timeframe D
+2024-07-09T14:03:19.164272+0930 WARNING Insufficient data for RSI calculation. Fetched 0 klines (needed at least 14)
+2024-07-09T14:03:19.165844+0930 WARNING No klines fetched for the period from 2024-07-01 09:31:00 to 2024-07-02 09:31:00 for timeframe W
+2024-07-09T14:03:20.005592+0930 WARNING Insufficient data for RSI calculation. Fetched 0 klines (needed at least 14)
+2024-07-09T14:03:20.007018+0930 WARNING No klines fetched for the period from 2024-07-02 09:31:00 to 2024-07-03 09:31:00 for timeframe W
+2024-07-09T14:03:20.845769+0930 WARNING Insufficient data for RSI calculation. Fetched 0 klines (needed at least 14)
+2024-07-09T14:03:20.847054+0930 WARNING No klines fetched for the period from 2024-07-03 09:31:00 to 2024-07-04 09:31:00 for timeframe W
+2024-07-09T14:03:21.685230+0930 WARNING Insufficient data for RSI calculation. Fetched 0 klines (needed at least 14)
+2024-07-09T14:03:21.686517+0930 WARNING No klines fetched for the period from 2024-07-04 09:31:00 to 2024-07-05 09:31:00 for timeframe W
+2024-07-09T14:03:22.527139+0930 WARNING Insufficient data for RSI calculation. Fetched 0 klines (needed at least 14)
+2024-07-09T14:03:22.528486+0930 WARNING No klines fetched for the period from 2024-07-05 09:31:00 to 2024-07-06 09:31:00 for timeframe W
+2024-07-09T14:03:23.363298+0930 WARNING Insufficient data for RSI calculation. Fetched 0 klines (needed at least 14)
+2024-07-09T14:03:23.364458+0930 WARNING No klines fetched for the period from 2024-07-06 09:31:00 to 2024-07-07 09:31:00 for timeframe W
+2024-07-09T14:03:24.198955+0930 WARNING Insufficient data for RSI calculation. Fetched 1 klines (needed at least 14)
+2024-07-09T14:03:24.200363+0930 WARNING No klines fetched for the period from 2024-07-07 09:31:00 to 2024-07-08 09:31:00 for timeframe W
+2024-07-09T14:03:24.830783+0930 WARNING Insufficient data for RSI calculation. Fetched 0 klines (needed at least 14)
+2024-07-09T14:03:24.832044+0930 WARNING No klines fetched for the period from 2024-07-08 09:31:00 to 2024-07-09 09:31:00 for timeframe W
+2024-07-09T14:03:25.669088+0930 WARNING Insufficient data for RSI calculation. Fetched 0 klines (needed at least 14)
+2024-07-09T14:03:25.670465+0930 WARNING No klines fetched for the period from 2024-07-09 09:31:00 to 2024-07-09 14:03:18.557513 for timeframe W
+2024-07-09T14:03:26.174039+0930 INFO Event loop closed
+2024-07-09T14:04:27.412876+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'aea3b472-a516-47ae-9259-517bb600bf61', 'req_id': '', 'op': 'subscribe'}
+2024-07-09T14:04:27.797841+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'aea3b472-a516-47ae-9259-517bb600bf61', 'req_id': '', 'op': 'subscribe'}
+2024-07-09T14:04:27.970364+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'aea3b472-a516-47ae-9259-517bb600bf61', 'req_id': '', 'op': 'subscribe'}
+2024-07-09T14:04:28.328673+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'aea3b472-a516-47ae-9259-517bb600bf61', 'req_id': '', 'op': 'subscribe'}
+2024-07-09T14:04:28.482700+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'aea3b472-a516-47ae-9259-517bb600bf61', 'req_id': '', 'op': 'subscribe'}
+2024-07-09T14:04:28.845018+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'aea3b472-a516-47ae-9259-517bb600bf61', 'req_id': '', 'op': 'subscribe'}
+2024-07-09T14:04:29.204887+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'aea3b472-a516-47ae-9259-517bb600bf61', 'req_id': '', 'op': 'subscribe'}
+2024-07-09T14:04:29.226848+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:04:29.250343+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'aea3b472-a516-47ae-9259-517bb600bf61', 'req_id': '', 'op': 'subscribe'}
+2024-07-09T14:04:29.276977+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:04:29.304264+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'aea3b472-a516-47ae-9259-517bb600bf61', 'req_id': '', 'op': 'subscribe'}
+2024-07-09T14:04:30.734290+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:04:30.759041+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:04:31.314410+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:04:31.341810+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:04:33.690353+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:04:33.718522+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:04:34.500148+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:04:34.530606+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:04:35.613653+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:04:35.639756+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:04:36.581590+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:04:37.208363+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:04:37.235904+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:04:37.665293+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:04:39.317129+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:04:39.343597+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:04:40.698202+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:04:40.724687+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:04:41.933926+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:04:41.959006+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:04:42.505270+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:04:42.529183+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:04:43.471915+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:04:43.496876+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:04:44.700462+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:04:44.724738+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:04:45.814672+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:04:45.840493+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:04:47.098680+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:04:47.124206+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:04:47.544672+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:04:47.605317+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:04:48.429094+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:04:48.456466+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:04:49.663019+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:04:49.686768+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:04:50.740982+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:04:50.765252+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:04:51.909055+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:04:51.934785+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:04:52.745629+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:04:52.769544+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:04:53.445270+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:04:53.492283+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:04:54.696826+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:04:54.730596+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:04:55.816470+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:04:55.840985+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:04:56.254739+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:04:56.278493+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:04:57.810767+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:04:57.835849+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:04:58.917124+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:04:58.942197+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:04:59.490566+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:04:59.514719+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:05:00.720593+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:05:01.135897+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:05:01.418651+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:05:01.442803+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:05:02.722339+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:05:02.747685+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:05:03.165435+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:05:03.192083+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:05:04.830921+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:05:04.854783+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:05:05.661081+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:05:05.685028+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:05:05.709638+0930 ERROR Error parsing kline message: name 'config' is not defined
+2024-07-09T14:05:05.732481+0930 ERROR Error parsing kline message: name 'config' is not defined
+2024-07-09T14:05:06.673581+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:05:06.697251+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:05:07.249204+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:05:07.274568+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:05:07.953796+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:05:07.978916+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:05:09.562883+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:05:09.587079+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:05:10.659128+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:05:10.682981+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:05:11.372259+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:05:11.787710+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:05:12.600876+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:05:12.625470+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:05:13.428394+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:05:13.453438+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:05:14.293884+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:05:14.319337+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:05:15.587508+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:05:15.612088+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:05:16.286725+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:05:16.701580+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:05:17.381218+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:05:17.405896+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:05:18.851471+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:05:18.876822+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:05:19.555243+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:05:19.581165+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:05:20.449876+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:05:20.476082+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:05:21.301036+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:05:21.328543+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:05:22.279954+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:05:22.303647+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:05:23.528451+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:05:23.564083+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:05:24.376429+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:05:24.408103+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:05:25.357040+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:05:25.385309+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:05:26.733494+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:05:26.757905+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:05:27.834385+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:05:27.860662+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:05:28.670015+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:05:28.698027+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:05:29.504322+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:05:29.529054+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:05:30.473845+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:05:30.502076+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:05:31.638423+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:05:31.663171+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:05:32.856815+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:05:32.884315+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:05:33.849176+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:05:34.469991+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:05:34.890344+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:05:35.308998+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:05:35.990415+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:05:36.409142+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:05:37.486745+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:05:37.512674+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:05:38.806930+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:05:38.834810+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:05:39.255333+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:05:39.280076+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:05:40.506491+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:05:40.533381+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:05:41.226444+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:05:41.251398+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:05:42.731154+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:05:42.757829+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:05:43.336788+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:05:43.364041+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:05:44.173285+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:05:44.198779+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:05:45.472953+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:05:45.905659+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:05:46.187988+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:05:46.211986+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:05:47.290253+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:05:47.317466+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:05:48.332597+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:05:48.358599+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:05:49.039002+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:05:49.457190+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:05:50.399344+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:05:50.845995+0930 INFO Event loop closed
+2024-07-09T14:06:56.162586+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': '05b8d558-fe7b-4e0f-b627-4fc23537d9d4', 'req_id': '', 'op': 'subscribe'}
+2024-07-09T14:06:56.618903+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': '05b8d558-fe7b-4e0f-b627-4fc23537d9d4', 'req_id': '', 'op': 'subscribe'}
+2024-07-09T14:06:57.065207+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': '05b8d558-fe7b-4e0f-b627-4fc23537d9d4', 'req_id': '', 'op': 'subscribe'}
+2024-07-09T14:06:57.601678+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': '05b8d558-fe7b-4e0f-b627-4fc23537d9d4', 'req_id': '', 'op': 'subscribe'}
+2024-07-09T14:06:58.126771+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': '05b8d558-fe7b-4e0f-b627-4fc23537d9d4', 'req_id': '', 'op': 'subscribe'}
+2024-07-09T14:06:58.574370+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': '05b8d558-fe7b-4e0f-b627-4fc23537d9d4', 'req_id': '', 'op': 'subscribe'}
+2024-07-09T14:06:59.022170+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': '05b8d558-fe7b-4e0f-b627-4fc23537d9d4', 'req_id': '', 'op': 'subscribe'}
+2024-07-09T14:06:59.039313+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:06:59.058094+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': '05b8d558-fe7b-4e0f-b627-4fc23537d9d4', 'req_id': '', 'op': 'subscribe'}
+2024-07-09T14:06:59.074249+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:06:59.092565+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': '05b8d558-fe7b-4e0f-b627-4fc23537d9d4', 'req_id': '', 'op': 'subscribe'}
+2024-07-09T14:06:59.964075+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:06:59.983147+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:07:01.977480+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:07:02.887152+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:07:04.228027+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:07:04.246565+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:07:06.768673+0930 ERROR Error parsing kline message: name 'config' is not defined
+2024-07-09T14:07:07.238948+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:07:07.257023+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:07:09.054940+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:07:09.072356+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:07:09.978885+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:07:10.923643+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:07:13.018558+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:07:13.037874+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:07:13.084564+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:07:13.106324+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:07:15.206335+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:07:15.225665+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:07:17.402635+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:07:17.420556+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:07:19.432729+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:07:19.453044+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:07:20.594332+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:07:20.611867+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:07:22.450494+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:07:22.468260+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:07:24.270688+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:07:24.340358+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:07:25.542371+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:07:25.560231+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:07:28.793896+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:07:29.533132+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:07:30.873284+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:07:30.891956+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:07:32.030179+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:07:32.049556+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:07:34.205268+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:07:34.886020+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:07:35.832474+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:07:35.850582+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:07:37.446400+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:07:37.465966+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:07:40.805803+0930 INFO Event loop closed
+2024-07-09T14:15:12.379818+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': '2f30d558-3ccc-43f6-aff3-44612065e4fb', 'req_id': '', 'op': 'subscribe'}
+2024-07-09T14:15:12.627447+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': '2f30d558-3ccc-43f6-aff3-44612065e4fb', 'req_id': '', 'op': 'subscribe'}
+2024-07-09T14:15:12.865700+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': '2f30d558-3ccc-43f6-aff3-44612065e4fb', 'req_id': '', 'op': 'subscribe'}
+2024-07-09T14:15:13.213450+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': '2f30d558-3ccc-43f6-aff3-44612065e4fb', 'req_id': '', 'op': 'subscribe'}
+2024-07-09T14:15:13.445712+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': '2f30d558-3ccc-43f6-aff3-44612065e4fb', 'req_id': '', 'op': 'subscribe'}
+2024-07-09T14:15:13.675969+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': '2f30d558-3ccc-43f6-aff3-44612065e4fb', 'req_id': '', 'op': 'subscribe'}
+2024-07-09T14:15:13.908476+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': '2f30d558-3ccc-43f6-aff3-44612065e4fb', 'req_id': '', 'op': 'subscribe'}
+2024-07-09T14:15:13.924736+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:15:13.942699+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': '2f30d558-3ccc-43f6-aff3-44612065e4fb', 'req_id': '', 'op': 'subscribe'}
+2024-07-09T14:15:13.975898+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:15:13.993953+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': '2f30d558-3ccc-43f6-aff3-44612065e4fb', 'req_id': '', 'op': 'subscribe'}
+2024-07-09T14:15:15.375968+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:15:15.393305+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:15:16.310142+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:15:16.329805+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:15:18.378268+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:15:18.397033+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:15:20.633360+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:15:20.651746+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:15:21.531757+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:15:21.549330+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:15:23.633195+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:15:24.339263+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:15:24.805671+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:15:24.824711+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:15:26.912680+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:15:26.931754+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:15:28.749828+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:15:28.767719+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:15:29.693673+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:15:29.711548+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:15:31.738971+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:15:31.757855+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:15:33.147466+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:15:33.165746+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:15:34.327911+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:15:34.349822+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:15:35.928621+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:15:35.946294+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:15:38.643365+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:15:38.661566+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:15:40.713059+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:15:40.731634+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:15:42.080250+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:15:42.097727+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:15:43.660894+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:15:44.374421+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:15:45.277486+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:15:45.296235+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:15:47.139829+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:15:47.158803+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:15:48.322145+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:15:49.226095+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:15:50.351463+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:15:51.066378+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:15:52.027125+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:15:52.048334+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:15:53.846765+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:15:53.865393+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:15:54.771981+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:15:54.791503+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:15:57.280819+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:15:57.298440+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:15:59.621896+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:15:59.641755+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:16:00.551699+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:16:00.570426+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:16:02.016692+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:16:02.035098+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:16:03.033729+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:16:03.050844+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:16:05.791620+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:16:05.810772+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:16:07.204930+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:16:08.092622+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:16:09.223114+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:16:09.241160+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:16:10.848278+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:16:10.868342+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:16:11.557072+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:16:12.250398+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:16:13.136747+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:16:13.154918+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:16:15.434427+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:16:15.452507+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:16:17.016728+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:16:17.034951+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:16:19.319832+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:16:19.338915+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:16:20.721506+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:16:20.740267+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:16:20.761418+0930 ERROR Error parsing kline message: name 'config' is not defined
+2024-07-09T14:16:22.404567+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:16:22.423718+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:16:22.828766+0930 INFO Event loop closed
+2024-07-09T14:28:25.968172+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': '9b913209-1d56-4653-b3b2-c06ebec6950e', 'req_id': '', 'op': 'subscribe'}
+2024-07-09T14:28:26.218271+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': '9b913209-1d56-4653-b3b2-c06ebec6950e', 'req_id': '', 'op': 'subscribe'}
+2024-07-09T14:28:26.670805+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': '9b913209-1d56-4653-b3b2-c06ebec6950e', 'req_id': '', 'op': 'subscribe'}
+2024-07-09T14:28:26.958185+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': '9b913209-1d56-4653-b3b2-c06ebec6950e', 'req_id': '', 'op': 'subscribe'}
+2024-07-09T14:28:27.414951+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': '9b913209-1d56-4653-b3b2-c06ebec6950e', 'req_id': '', 'op': 'subscribe'}
+2024-07-09T14:28:27.690002+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': '9b913209-1d56-4653-b3b2-c06ebec6950e', 'req_id': '', 'op': 'subscribe'}
+2024-07-09T14:28:27.925087+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': '9b913209-1d56-4653-b3b2-c06ebec6950e', 'req_id': '', 'op': 'subscribe'}
+2024-07-09T14:28:27.942483+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:28:27.961836+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': '9b913209-1d56-4653-b3b2-c06ebec6950e', 'req_id': '', 'op': 'subscribe'}
+2024-07-09T14:28:27.979123+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:28:27.997993+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': '9b913209-1d56-4653-b3b2-c06ebec6950e', 'req_id': '', 'op': 'subscribe'}
+2024-07-09T14:28:28.665787+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:28:29.940948+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:28:31.246185+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:28:31.265118+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:28:33.279104+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:28:33.297070+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:28:35.374050+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:28:35.399418+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:28:38.006528+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:28:38.033513+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:28:40.288238+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:28:40.322670+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:28:42.929132+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:28:42.954382+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:28:44.204073+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:28:44.230255+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:28:46.555450+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:28:46.581105+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:28:47.128584+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:28:47.153912+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:28:49.557336+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:28:49.581542+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:28:50.895973+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:28:50.920751+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:28:54.023999+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:28:54.051766+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:28:55.406114+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:28:55.431774+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:28:58.034202+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:28:58.059333+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:29:00.703980+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:29:00.729070+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:29:02.221964+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:29:02.248383+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:29:05.366667+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:29:05.391532+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:29:07.168132+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:29:07.193485+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:29:10.394739+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:29:10.419463+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:29:12.958921+0930 INFO Event loop closed
+2024-07-09T14:30:28.500419+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': '669e0248-2281-4edc-89ca-439b5020917b', 'req_id': '', 'op': 'subscribe'}
+2024-07-09T14:30:28.653788+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': '669e0248-2281-4edc-89ca-439b5020917b', 'req_id': '', 'op': 'subscribe'}
+2024-07-09T14:30:28.810024+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': '669e0248-2281-4edc-89ca-439b5020917b', 'req_id': '', 'op': 'subscribe'}
+2024-07-09T14:30:28.968854+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': '669e0248-2281-4edc-89ca-439b5020917b', 'req_id': '', 'op': 'subscribe'}
+2024-07-09T14:30:29.123880+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': '669e0248-2281-4edc-89ca-439b5020917b', 'req_id': '', 'op': 'subscribe'}
+2024-07-09T14:30:29.486938+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': '669e0248-2281-4edc-89ca-439b5020917b', 'req_id': '', 'op': 'subscribe'}
+2024-07-09T14:30:29.851561+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': '669e0248-2281-4edc-89ca-439b5020917b', 'req_id': '', 'op': 'subscribe'}
+2024-07-09T14:30:29.873573+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:30:29.897226+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': '669e0248-2281-4edc-89ca-439b5020917b', 'req_id': '', 'op': 'subscribe'}
+2024-07-09T14:30:29.919720+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:30:29.943633+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': '669e0248-2281-4edc-89ca-439b5020917b', 'req_id': '', 'op': 'subscribe'}
+2024-07-09T14:30:31.109783+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:30:31.133801+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:30:33.531689+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:30:33.556919+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:30:33.580771+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:30:33.606234+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:30:35.572433+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:30:35.596965+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:30:36.017004+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:30:36.041179+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:30:37.386234+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:30:37.410233+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:30:38.232961+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:30:38.257506+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:30:38.686070+0930 ERROR Error calculating indicators for BTCUSDT W: invalid literal for int() with base 10: 'W'
+2024-07-09T14:30:39.105345+0930 ERROR Error calculating indicators for BTCUSDT D: invalid literal for int() with base 10: 'D'
+2024-07-09T14:30:39.687257+0930 INFO Event loop closed
+2024-07-09T14:34:19.407862+0930 ERROR Error calculating indicators for BTCUSDT 1: Unsupported timeframe: 1
+2024-07-09T14:34:19.428255+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': '4ee4e9bc-5b07-4ed1-8857-94057438d32a', 'req_id': '', 'op': 'subscribe'}
+2024-07-09T14:34:19.448827+0930 ERROR Error calculating indicators for BTCUSDT 5: Unsupported timeframe: 5
+2024-07-09T14:34:19.470275+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': '4ee4e9bc-5b07-4ed1-8857-94057438d32a', 'req_id': '', 'op': 'subscribe'}
+2024-07-09T14:34:19.490583+0930 ERROR Error calculating indicators for BTCUSDT 15: Unsupported timeframe: 15
+2024-07-09T14:34:19.511316+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': '4ee4e9bc-5b07-4ed1-8857-94057438d32a', 'req_id': '', 'op': 'subscribe'}
+2024-07-09T14:34:19.532077+0930 ERROR Error calculating indicators for BTCUSDT 30: Unsupported timeframe: 30
+2024-07-09T14:34:19.554850+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': '4ee4e9bc-5b07-4ed1-8857-94057438d32a', 'req_id': '', 'op': 'subscribe'}
+2024-07-09T14:34:19.575399+0930 ERROR Error calculating indicators for BTCUSDT 60: Unsupported timeframe: 60
+2024-07-09T14:34:19.597407+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': '4ee4e9bc-5b07-4ed1-8857-94057438d32a', 'req_id': '', 'op': 'subscribe'}
+2024-07-09T14:34:19.618196+0930 ERROR Error calculating indicators for BTCUSDT 120: Unsupported timeframe: 120
+2024-07-09T14:34:19.639883+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': '4ee4e9bc-5b07-4ed1-8857-94057438d32a', 'req_id': '', 'op': 'subscribe'}
+2024-07-09T14:34:19.661411+0930 ERROR Error calculating indicators for BTCUSDT 240: Unsupported timeframe: 240
+2024-07-09T14:34:19.683280+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': '4ee4e9bc-5b07-4ed1-8857-94057438d32a', 'req_id': '', 'op': 'subscribe'}
+2024-07-09T14:34:20.148443+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': '4ee4e9bc-5b07-4ed1-8857-94057438d32a', 'req_id': '', 'op': 'subscribe'}
+2024-07-09T14:34:20.323970+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': '4ee4e9bc-5b07-4ed1-8857-94057438d32a', 'req_id': '', 'op': 'subscribe'}
+2024-07-09T14:34:20.347672+0930 ERROR Error calculating indicators for BTCUSDT 15: Unsupported timeframe: 15
+2024-07-09T14:34:20.371317+0930 ERROR Error calculating indicators for BTCUSDT 60: Unsupported timeframe: 60
+2024-07-09T14:34:20.525069+0930 ERROR Error calculating indicators for BTCUSDT 1: Unsupported timeframe: 1
+2024-07-09T14:34:20.548192+0930 ERROR Error calculating indicators for BTCUSDT 5: Unsupported timeframe: 5
+2024-07-09T14:34:20.571418+0930 ERROR Error calculating indicators for BTCUSDT 120: Unsupported timeframe: 120
+2024-07-09T14:34:20.932049+0930 ERROR Error calculating indicators for BTCUSDT 240: Unsupported timeframe: 240
+2024-07-09T14:34:20.956131+0930 ERROR Error calculating indicators for BTCUSDT 30: Unsupported timeframe: 30
+2024-07-09T14:34:21.064120+0930 ERROR Error calculating indicators for BTCUSDT 240: Unsupported timeframe: 240
+2024-07-09T14:34:21.088352+0930 ERROR Error calculating indicators for BTCUSDT 30: Unsupported timeframe: 30
+2024-07-09T14:34:21.114093+0930 ERROR Error calculating indicators for BTCUSDT 15: Unsupported timeframe: 15
+2024-07-09T14:34:21.140281+0930 ERROR Error calculating indicators for BTCUSDT 60: Unsupported timeframe: 60
+2024-07-09T14:34:21.166729+0930 ERROR Error calculating indicators for BTCUSDT 1: Unsupported timeframe: 1
+2024-07-09T14:34:21.190316+0930 ERROR Error calculating indicators for BTCUSDT 5: Unsupported timeframe: 5
+2024-07-09T14:34:21.216058+0930 ERROR Error calculating indicators for BTCUSDT 120: Unsupported timeframe: 120
+2024-07-09T14:34:23.063937+0930 ERROR Error calculating indicators for BTCUSDT 30: Unsupported timeframe: 30
+2024-07-09T14:34:23.087756+0930 ERROR Error calculating indicators for BTCUSDT 15: Unsupported timeframe: 15
+2024-07-09T14:34:23.111419+0930 ERROR Error calculating indicators for BTCUSDT 60: Unsupported timeframe: 60
+2024-07-09T14:34:23.138664+0930 ERROR Error calculating indicators for BTCUSDT 1: Unsupported timeframe: 1
+2024-07-09T14:34:23.162150+0930 ERROR Error calculating indicators for BTCUSDT 5: Unsupported timeframe: 5
+2024-07-09T14:34:23.189439+0930 ERROR Error calculating indicators for BTCUSDT 120: Unsupported timeframe: 120
+2024-07-09T14:34:23.689138+0930 ERROR Error calculating indicators for BTCUSDT 240: Unsupported timeframe: 240
+2024-07-09T14:34:24.065144+0930 ERROR Error calculating indicators for BTCUSDT 15: Unsupported timeframe: 15
+2024-07-09T14:34:24.089969+0930 ERROR Error calculating indicators for BTCUSDT 60: Unsupported timeframe: 60
+2024-07-09T14:34:24.449993+0930 ERROR Error calculating indicators for BTCUSDT 1: Unsupported timeframe: 1
+2024-07-09T14:34:24.475928+0930 ERROR Error calculating indicators for BTCUSDT 5: Unsupported timeframe: 5
+2024-07-09T14:34:24.502191+0930 ERROR Error calculating indicators for BTCUSDT 120: Unsupported timeframe: 120
+2024-07-09T14:34:24.861373+0930 ERROR Error calculating indicators for BTCUSDT 240: Unsupported timeframe: 240
+2024-07-09T14:34:24.884470+0930 ERROR Error calculating indicators for BTCUSDT 30: Unsupported timeframe: 30
+2024-07-09T14:34:25.064424+0930 ERROR Error calculating indicators for BTCUSDT 240: Unsupported timeframe: 240
+2024-07-09T14:34:25.088787+0930 ERROR Error calculating indicators for BTCUSDT 30: Unsupported timeframe: 30
+2024-07-09T14:34:25.111498+0930 ERROR Error calculating indicators for BTCUSDT 60: Unsupported timeframe: 60
+2024-07-09T14:34:25.135511+0930 ERROR Error calculating indicators for BTCUSDT 15: Unsupported timeframe: 15
+2024-07-09T14:34:25.164360+0930 ERROR Error calculating indicators for BTCUSDT 5: Unsupported timeframe: 5
+2024-07-09T14:34:25.188177+0930 ERROR Error calculating indicators for BTCUSDT 120: Unsupported timeframe: 120
+2024-07-09T14:34:25.890963+0930 ERROR Error calculating indicators for BTCUSDT 1: Unsupported timeframe: 1
+2024-07-09T14:34:26.165703+0930 ERROR Error calculating indicators for BTCUSDT 120: Unsupported timeframe: 120
+2024-07-09T14:34:26.681304+0930 ERROR Error calculating indicators for BTCUSDT 1: Unsupported timeframe: 1
+2024-07-09T14:34:26.704214+0930 ERROR Error calculating indicators for BTCUSDT 5: Unsupported timeframe: 5
+2024-07-09T14:34:26.727426+0930 ERROR Error calculating indicators for BTCUSDT 240: Unsupported timeframe: 240
+2024-07-09T14:34:26.787877+0930 ERROR Error calculating indicators for BTCUSDT 30: Unsupported timeframe: 30
+2024-07-09T14:34:26.811322+0930 ERROR Error calculating indicators for BTCUSDT 15: Unsupported timeframe: 15
+2024-07-09T14:34:26.836106+0930 ERROR Error calculating indicators for BTCUSDT 60: Unsupported timeframe: 60
+2024-07-09T14:34:27.066100+0930 ERROR Error calculating indicators for BTCUSDT 240: Unsupported timeframe: 240
+2024-07-09T14:34:27.089590+0930 ERROR Error calculating indicators for BTCUSDT 30: Unsupported timeframe: 30
+2024-07-09T14:34:27.112257+0930 ERROR Error calculating indicators for BTCUSDT 60: Unsupported timeframe: 60
+2024-07-09T14:34:27.136108+0930 ERROR Error calculating indicators for BTCUSDT 15: Unsupported timeframe: 15
+2024-07-09T14:34:27.163307+0930 ERROR Error calculating indicators for BTCUSDT 5: Unsupported timeframe: 5
+2024-07-09T14:34:27.186600+0930 ERROR Error calculating indicators for BTCUSDT 120: Unsupported timeframe: 120
+2024-07-09T14:34:37.896076+0930 INFO All tasks have been cancelled
+2024-07-09T14:34:37.897001+0930 INFO Event loop closed
+2024-07-09T14:50:43.503888+0930 ERROR Error calculating indicators for BTCUSDT 1: name 'get_timeframe_delta' is not defined
+2024-07-09T14:50:43.523994+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'ee63fdd3-9de5-44fc-93e9-de23c8de28ad', 'req_id': '', 'op': 'subscribe'}
+2024-07-09T14:50:43.544099+0930 ERROR Error calculating indicators for BTCUSDT 5: name 'get_timeframe_delta' is not defined
+2024-07-09T14:50:43.568634+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'ee63fdd3-9de5-44fc-93e9-de23c8de28ad', 'req_id': '', 'op': 'subscribe'}
+2024-07-09T14:50:43.590000+0930 ERROR Error calculating indicators for BTCUSDT 15: name 'get_timeframe_delta' is not defined
+2024-07-09T14:50:43.611689+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'ee63fdd3-9de5-44fc-93e9-de23c8de28ad', 'req_id': '', 'op': 'subscribe'}
+2024-07-09T14:50:43.630429+0930 ERROR Error calculating indicators for BTCUSDT 30: name 'get_timeframe_delta' is not defined
+2024-07-09T14:50:43.650846+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'ee63fdd3-9de5-44fc-93e9-de23c8de28ad', 'req_id': '', 'op': 'subscribe'}
+2024-07-09T14:50:43.671663+0930 ERROR Error calculating indicators for BTCUSDT 60: name 'get_timeframe_delta' is not defined
+2024-07-09T14:50:43.691876+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'ee63fdd3-9de5-44fc-93e9-de23c8de28ad', 'req_id': '', 'op': 'subscribe'}
+2024-07-09T14:50:43.709367+0930 ERROR Error calculating indicators for BTCUSDT 120: name 'get_timeframe_delta' is not defined
+2024-07-09T14:50:43.727070+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'ee63fdd3-9de5-44fc-93e9-de23c8de28ad', 'req_id': '', 'op': 'subscribe'}
+2024-07-09T14:50:43.746281+0930 ERROR Error calculating indicators for BTCUSDT 240: name 'get_timeframe_delta' is not defined
+2024-07-09T14:50:43.764734+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'ee63fdd3-9de5-44fc-93e9-de23c8de28ad', 'req_id': '', 'op': 'subscribe'}
+2024-07-09T14:50:43.782495+0930 ERROR Error calculating indicators for BTCUSDT D: name 'get_timeframe_delta' is not defined
+2024-07-09T14:50:43.800973+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'ee63fdd3-9de5-44fc-93e9-de23c8de28ad', 'req_id': '', 'op': 'subscribe'}
+2024-07-09T14:50:43.824013+0930 ERROR Error calculating indicators for BTCUSDT W: name 'get_timeframe_delta' is not defined
+2024-07-09T14:50:43.842775+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'ee63fdd3-9de5-44fc-93e9-de23c8de28ad', 'req_id': '', 'op': 'subscribe'}
+2024-07-09T14:50:45.150705+0930 ERROR Error calculating indicators for BTCUSDT D: name 'get_timeframe_delta' is not defined
+2024-07-09T14:50:45.170033+0930 ERROR Error calculating indicators for BTCUSDT W: name 'get_timeframe_delta' is not defined
+2024-07-09T14:50:45.188250+0930 ERROR Error calculating indicators for BTCUSDT 1: name 'get_timeframe_delta' is not defined
+2024-07-09T14:50:45.206527+0930 ERROR Error calculating indicators for BTCUSDT 5: name 'get_timeframe_delta' is not defined
+2024-07-09T14:50:45.224934+0930 ERROR Error calculating indicators for BTCUSDT 120: name 'get_timeframe_delta' is not defined
+2024-07-09T14:50:45.244342+0930 ERROR Error calculating indicators for BTCUSDT 240: name 'get_timeframe_delta' is not defined
+2024-07-09T14:50:45.262905+0930 ERROR Error calculating indicators for BTCUSDT 30: name 'get_timeframe_delta' is not defined
+2024-07-09T14:50:45.281837+0930 ERROR Error calculating indicators for BTCUSDT 15: name 'get_timeframe_delta' is not defined
+2024-07-09T14:50:45.300991+0930 ERROR Error calculating indicators for BTCUSDT 60: name 'get_timeframe_delta' is not defined
+2024-07-09T14:50:46.053155+0930 ERROR Error calculating indicators for BTCUSDT D: name 'get_timeframe_delta' is not defined
+2024-07-09T14:50:46.071071+0930 ERROR Error calculating indicators for BTCUSDT W: name 'get_timeframe_delta' is not defined
+2024-07-09T14:50:46.089102+0930 ERROR Error calculating indicators for BTCUSDT 1: name 'get_timeframe_delta' is not defined
+2024-07-09T14:50:46.107878+0930 ERROR Error calculating indicators for BTCUSDT 5: name 'get_timeframe_delta' is not defined
+2024-07-09T14:50:46.126519+0930 ERROR Error calculating indicators for BTCUSDT 120: name 'get_timeframe_delta' is not defined
+2024-07-09T14:50:46.145235+0930 ERROR Error calculating indicators for BTCUSDT 240: name 'get_timeframe_delta' is not defined
+2024-07-09T14:50:46.163493+0930 ERROR Error calculating indicators for BTCUSDT 30: name 'get_timeframe_delta' is not defined
+2024-07-09T14:50:46.182534+0930 ERROR Error calculating indicators for BTCUSDT 15: name 'get_timeframe_delta' is not defined
+2024-07-09T14:50:46.201792+0930 ERROR Error calculating indicators for BTCUSDT 60: name 'get_timeframe_delta' is not defined
+2024-07-09T14:50:48.052638+0930 ERROR Error calculating indicators for BTCUSDT 30: name 'get_timeframe_delta' is not defined
+2024-07-09T14:50:48.071534+0930 ERROR Error calculating indicators for BTCUSDT 15: name 'get_timeframe_delta' is not defined
+2024-07-09T14:50:48.090785+0930 ERROR Error calculating indicators for BTCUSDT 60: name 'get_timeframe_delta' is not defined
+2024-07-09T14:50:48.109042+0930 ERROR Error calculating indicators for BTCUSDT D: name 'get_timeframe_delta' is not defined
+2024-07-09T14:50:48.127287+0930 ERROR Error calculating indicators for BTCUSDT W: name 'get_timeframe_delta' is not defined
+2024-07-09T14:50:48.146313+0930 ERROR Error calculating indicators for BTCUSDT 1: name 'get_timeframe_delta' is not defined
+2024-07-09T14:50:48.168626+0930 ERROR Error calculating indicators for BTCUSDT 5: name 'get_timeframe_delta' is not defined
+2024-07-09T14:50:48.187604+0930 ERROR Error calculating indicators for BTCUSDT 120: name 'get_timeframe_delta' is not defined
+2024-07-09T14:50:48.206472+0930 ERROR Error calculating indicators for BTCUSDT 240: name 'get_timeframe_delta' is not defined
+2024-07-09T14:50:49.053278+0930 ERROR Error calculating indicators for BTCUSDT 240: name 'get_timeframe_delta' is not defined
+2024-07-09T14:50:49.072720+0930 ERROR Error calculating indicators for BTCUSDT 30: name 'get_timeframe_delta' is not defined
+2024-07-09T14:50:49.091004+0930 ERROR Error calculating indicators for BTCUSDT 15: name 'get_timeframe_delta' is not defined
+2024-07-09T14:50:49.110032+0930 ERROR Error calculating indicators for BTCUSDT 60: name 'get_timeframe_delta' is not defined
+2024-07-09T14:50:49.129124+0930 ERROR Error calculating indicators for BTCUSDT 1: name 'get_timeframe_delta' is not defined
+2024-07-09T14:50:49.147563+0930 ERROR Error calculating indicators for BTCUSDT 5: name 'get_timeframe_delta' is not defined
+2024-07-09T14:50:49.168264+0930 ERROR Error calculating indicators for BTCUSDT 120: name 'get_timeframe_delta' is not defined
+2024-07-09T14:50:49.186429+0930 ERROR Error calculating indicators for BTCUSDT D: name 'get_timeframe_delta' is not defined
+2024-07-09T14:50:49.205808+0930 ERROR Error calculating indicators for BTCUSDT W: name 'get_timeframe_delta' is not defined
+2024-07-09T14:50:49.435094+0930 INFO Event loop closed
+2024-07-09T14:52:35.740143+0930 WARNING Insufficient data for RSI calculation. Fetched 1 klines (needed at least 14)
+2024-07-09T14:52:35.758712+0930 WARNING No valid recent klines data received for BTCUSDT 1
+2024-07-09T14:52:35.776937+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': '43d9cd65-9b82-471f-92f9-e212b07186c0', 'req_id': '', 'op': 'subscribe'}
+2024-07-09T14:52:35.924836+0930 WARNING Insufficient data for RSI calculation. Fetched 1 klines (needed at least 14)
+2024-07-09T14:52:35.942937+0930 WARNING No valid recent klines data received for BTCUSDT 5
+2024-07-09T14:52:35.961205+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': '43d9cd65-9b82-471f-92f9-e212b07186c0', 'req_id': '', 'op': 'subscribe'}
+2024-07-09T14:52:36.314840+0930 WARNING Insufficient data for RSI calculation. Fetched 1 klines (needed at least 14)
+2024-07-09T14:52:36.331323+0930 WARNING No valid recent klines data received for BTCUSDT 15
+2024-07-09T14:52:36.348291+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': '43d9cd65-9b82-471f-92f9-e212b07186c0', 'req_id': '', 'op': 'subscribe'}
+2024-07-09T14:52:36.492322+0930 WARNING Insufficient data for RSI calculation. Fetched 1 klines (needed at least 14)
+2024-07-09T14:52:36.507731+0930 WARNING No valid recent klines data received for BTCUSDT 30
+2024-07-09T14:52:36.523681+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': '43d9cd65-9b82-471f-92f9-e212b07186c0', 'req_id': '', 'op': 'subscribe'}
+2024-07-09T14:52:36.666276+0930 WARNING Insufficient data for RSI calculation. Fetched 1 klines (needed at least 14)
+2024-07-09T14:52:36.680875+0930 WARNING No valid recent klines data received for BTCUSDT 60
+2024-07-09T14:52:36.696759+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': '43d9cd65-9b82-471f-92f9-e212b07186c0', 'req_id': '', 'op': 'subscribe'}
+2024-07-09T14:52:36.840085+0930 WARNING Insufficient data for RSI calculation. Fetched 1 klines (needed at least 14)
+2024-07-09T14:52:36.854808+0930 WARNING No valid recent klines data received for BTCUSDT 120
+2024-07-09T14:52:36.869803+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': '43d9cd65-9b82-471f-92f9-e212b07186c0', 'req_id': '', 'op': 'subscribe'}
+2024-07-09T14:52:37.012879+0930 WARNING Insufficient data for RSI calculation. Fetched 1 klines (needed at least 14)
+2024-07-09T14:52:37.028372+0930 WARNING No valid recent klines data received for BTCUSDT 240
+2024-07-09T14:52:37.043937+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': '43d9cd65-9b82-471f-92f9-e212b07186c0', 'req_id': '', 'op': 'subscribe'}
+2024-07-09T14:52:37.188849+0930 WARNING Insufficient data for RSI calculation. Fetched 1 klines (needed at least 14)
+2024-07-09T14:52:37.203978+0930 WARNING No valid recent klines data received for BTCUSDT D
+2024-07-09T14:52:37.219504+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': '43d9cd65-9b82-471f-92f9-e212b07186c0', 'req_id': '', 'op': 'subscribe'}
+2024-07-09T14:52:37.368365+0930 WARNING Insufficient data for RSI calculation. Fetched 1 klines (needed at least 14)
+2024-07-09T14:52:37.383591+0930 WARNING No valid recent klines data received for BTCUSDT W
+2024-07-09T14:52:37.399040+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': '43d9cd65-9b82-471f-92f9-e212b07186c0', 'req_id': '', 'op': 'subscribe'}
+2024-07-09T14:52:37.541068+0930 WARNING Insufficient data for RSI calculation. Fetched 1 klines (needed at least 14)
+2024-07-09T14:52:37.555920+0930 WARNING No valid recent klines data received for BTCUSDT 240
+2024-07-09T14:52:37.708540+0930 WARNING Insufficient data for RSI calculation. Fetched 1 klines (needed at least 14)
+2024-07-09T14:52:37.723436+0930 WARNING No valid recent klines data received for BTCUSDT 30
+2024-07-09T14:52:37.866081+0930 WARNING Insufficient data for RSI calculation. Fetched 1 klines (needed at least 14)
+2024-07-09T14:52:37.881601+0930 WARNING No valid recent klines data received for BTCUSDT 15
+2024-07-09T14:52:38.026352+0930 WARNING Insufficient data for RSI calculation. Fetched 1 klines (needed at least 14)
+2024-07-09T14:52:38.041849+0930 WARNING No valid recent klines data received for BTCUSDT 60
+2024-07-09T14:52:38.185553+0930 WARNING Insufficient data for RSI calculation. Fetched 1 klines (needed at least 14)
+2024-07-09T14:52:38.200860+0930 WARNING No valid recent klines data received for BTCUSDT D
+2024-07-09T14:52:38.344140+0930 WARNING Insufficient data for RSI calculation. Fetched 1 klines (needed at least 14)
+2024-07-09T14:52:38.359653+0930 WARNING No valid recent klines data received for BTCUSDT W
+2024-07-09T14:52:38.508455+0930 WARNING Insufficient data for RSI calculation. Fetched 1 klines (needed at least 14)
+2024-07-09T14:52:38.524223+0930 WARNING No valid recent klines data received for BTCUSDT 1
+2024-07-09T14:52:38.668212+0930 WARNING Insufficient data for RSI calculation. Fetched 1 klines (needed at least 14)
+2024-07-09T14:52:38.682956+0930 WARNING No valid recent klines data received for BTCUSDT 5
+2024-07-09T14:52:38.828784+0930 WARNING Insufficient data for RSI calculation. Fetched 1 klines (needed at least 14)
+2024-07-09T14:52:38.843875+0930 WARNING No valid recent klines data received for BTCUSDT 120
+2024-07-09T14:52:38.989656+0930 WARNING Insufficient data for RSI calculation. Fetched 1 klines (needed at least 14)
+2024-07-09T14:52:39.004891+0930 WARNING No valid recent klines data received for BTCUSDT D
+2024-07-09T14:52:39.152935+0930 WARNING Insufficient data for RSI calculation. Fetched 1 klines (needed at least 14)
+2024-07-09T14:52:39.168225+0930 WARNING No valid recent klines data received for BTCUSDT W
+2024-07-09T14:52:39.313893+0930 WARNING Insufficient data for RSI calculation. Fetched 1 klines (needed at least 14)
+2024-07-09T14:52:39.330279+0930 WARNING No valid recent klines data received for BTCUSDT 1
+2024-07-09T14:52:39.478037+0930 WARNING Insufficient data for RSI calculation. Fetched 1 klines (needed at least 14)
+2024-07-09T14:52:39.493903+0930 WARNING No valid recent klines data received for BTCUSDT 5
+2024-07-09T14:52:39.643767+0930 WARNING Insufficient data for RSI calculation. Fetched 1 klines (needed at least 14)
+2024-07-09T14:52:39.662748+0930 WARNING No valid recent klines data received for BTCUSDT 120
+2024-07-09T14:52:39.811007+0930 WARNING Insufficient data for RSI calculation. Fetched 1 klines (needed at least 14)
+2024-07-09T14:52:39.826955+0930 WARNING No valid recent klines data received for BTCUSDT 240
+2024-07-09T14:52:39.973726+0930 WARNING Insufficient data for RSI calculation. Fetched 1 klines (needed at least 14)
+2024-07-09T14:52:40.026452+0930 WARNING No valid recent klines data received for BTCUSDT 30
+2024-07-09T14:52:40.182220+0930 WARNING Insufficient data for RSI calculation. Fetched 1 klines (needed at least 14)
+2024-07-09T14:52:40.198069+0930 WARNING No valid recent klines data received for BTCUSDT 15
+2024-07-09T14:52:40.341790+0930 WARNING Insufficient data for RSI calculation. Fetched 1 klines (needed at least 14)
+2024-07-09T14:52:40.356739+0930 WARNING No valid recent klines data received for BTCUSDT 60
+2024-07-09T14:52:40.500459+0930 WARNING Insufficient data for RSI calculation. Fetched 1 klines (needed at least 14)
+2024-07-09T14:52:40.515823+0930 WARNING No valid recent klines data received for BTCUSDT D
+2024-07-09T14:52:40.663389+0930 WARNING Insufficient data for RSI calculation. Fetched 1 klines (needed at least 14)
+2024-07-09T14:52:40.678506+0930 WARNING No valid recent klines data received for BTCUSDT W
+2024-07-09T14:52:40.829080+0930 WARNING Insufficient data for RSI calculation. Fetched 1 klines (needed at least 14)
+2024-07-09T14:52:40.844203+0930 WARNING No valid recent klines data received for BTCUSDT 1
+2024-07-09T14:52:40.995396+0930 WARNING Insufficient data for RSI calculation. Fetched 1 klines (needed at least 14)
+2024-07-09T14:52:41.010931+0930 WARNING No valid recent klines data received for BTCUSDT 5
+2024-07-09T14:52:41.155296+0930 WARNING Insufficient data for RSI calculation. Fetched 1 klines (needed at least 14)
+2024-07-09T14:52:41.170553+0930 WARNING No valid recent klines data received for BTCUSDT 120
+2024-07-09T14:52:41.313431+0930 WARNING Insufficient data for RSI calculation. Fetched 1 klines (needed at least 14)
+2024-07-09T14:52:41.329038+0930 WARNING No valid recent klines data received for BTCUSDT 240
+2024-07-09T14:52:41.472564+0930 WARNING Insufficient data for RSI calculation. Fetched 1 klines (needed at least 14)
+2024-07-09T14:52:41.503059+0930 WARNING No valid recent klines data received for BTCUSDT 30
+2024-07-09T14:52:41.646032+0930 WARNING Insufficient data for RSI calculation. Fetched 1 klines (needed at least 14)
+2024-07-09T14:52:41.661807+0930 WARNING No valid recent klines data received for BTCUSDT 15
+2024-07-09T14:52:41.809934+0930 WARNING Insufficient data for RSI calculation. Fetched 1 klines (needed at least 14)
+2024-07-09T14:52:41.824832+0930 WARNING No valid recent klines data received for BTCUSDT 60
+2024-07-09T14:52:41.970300+0930 WARNING Insufficient data for RSI calculation. Fetched 1 klines (needed at least 14)
+2024-07-09T14:52:41.985472+0930 WARNING No valid recent klines data received for BTCUSDT 15
+2024-07-09T14:52:42.132294+0930 WARNING Insufficient data for RSI calculation. Fetched 1 klines (needed at least 14)
+2024-07-09T14:52:42.149760+0930 WARNING No valid recent klines data received for BTCUSDT 60
+2024-07-09T14:52:42.300293+0930 WARNING Insufficient data for RSI calculation. Fetched 1 klines (needed at least 14)
+2024-07-09T14:52:42.315953+0930 WARNING No valid recent klines data received for BTCUSDT D
+2024-07-09T14:52:42.463679+0930 WARNING Insufficient data for RSI calculation. Fetched 1 klines (needed at least 14)
+2024-07-09T14:52:42.479781+0930 WARNING No valid recent klines data received for BTCUSDT W
+2024-07-09T14:52:42.623838+0930 WARNING Insufficient data for RSI calculation. Fetched 1 klines (needed at least 14)
+2024-07-09T14:52:42.638921+0930 WARNING No valid recent klines data received for BTCUSDT 1
+2024-07-09T14:52:42.805148+0930 WARNING Insufficient data for RSI calculation. Fetched 1 klines (needed at least 14)
+2024-07-09T14:52:42.820391+0930 WARNING No valid recent klines data received for BTCUSDT 5
+2024-07-09T14:52:42.967285+0930 WARNING Insufficient data for RSI calculation. Fetched 1 klines (needed at least 14)
+2024-07-09T14:52:42.982239+0930 WARNING No valid recent klines data received for BTCUSDT 120
+2024-07-09T14:52:53.178839+0930 INFO All tasks have been cancelled
+2024-07-09T14:52:53.179694+0930 INFO Event loop closed
+2024-07-09T14:54:50.368981+0930 ERROR Exception fetching klines: 'Config' object has no attribute 'API_URL'
+2024-07-09T14:54:50.393067+0930 WARNING No valid recent klines data received for BTCUSDT 1
+2024-07-09T14:54:50.421426+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': '8276fe34-85a4-4027-9864-db30889c6f99', 'req_id': '', 'op': 'subscribe'}
+2024-07-09T14:54:50.445574+0930 ERROR Exception fetching klines: 'Config' object has no attribute 'API_URL'
+2024-07-09T14:54:50.470107+0930 WARNING No valid recent klines data received for BTCUSDT 5
+2024-07-09T14:54:50.494942+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': '8276fe34-85a4-4027-9864-db30889c6f99', 'req_id': '', 'op': 'subscribe'}
+2024-07-09T14:54:50.520020+0930 ERROR Exception fetching klines: 'Config' object has no attribute 'API_URL'
+2024-07-09T14:54:50.543200+0930 WARNING No valid recent klines data received for BTCUSDT 15
+2024-07-09T14:54:50.572193+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': '8276fe34-85a4-4027-9864-db30889c6f99', 'req_id': '', 'op': 'subscribe'}
+2024-07-09T14:54:50.595074+0930 ERROR Exception fetching klines: 'Config' object has no attribute 'API_URL'
+2024-07-09T14:54:50.618281+0930 WARNING No valid recent klines data received for BTCUSDT 30
+2024-07-09T14:54:50.643137+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': '8276fe34-85a4-4027-9864-db30889c6f99', 'req_id': '', 'op': 'subscribe'}
+2024-07-09T14:54:50.668240+0930 ERROR Exception fetching klines: 'Config' object has no attribute 'API_URL'
+2024-07-09T14:54:50.691385+0930 WARNING No valid recent klines data received for BTCUSDT 60
+2024-07-09T14:54:50.721059+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': '8276fe34-85a4-4027-9864-db30889c6f99', 'req_id': '', 'op': 'subscribe'}
+2024-07-09T14:54:50.742662+0930 ERROR Exception fetching klines: 'Config' object has no attribute 'API_URL'
+2024-07-09T14:54:50.765315+0930 WARNING No valid recent klines data received for BTCUSDT 120
+2024-07-09T14:54:50.790737+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': '8276fe34-85a4-4027-9864-db30889c6f99', 'req_id': '', 'op': 'subscribe'}
+2024-07-09T14:54:50.812222+0930 ERROR Exception fetching klines: 'Config' object has no attribute 'API_URL'
+2024-07-09T14:54:50.834934+0930 WARNING No valid recent klines data received for BTCUSDT 240
+2024-07-09T14:54:50.857710+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': '8276fe34-85a4-4027-9864-db30889c6f99', 'req_id': '', 'op': 'subscribe'}
+2024-07-09T14:54:50.879406+0930 ERROR Exception fetching klines: 'Config' object has no attribute 'API_URL'
+2024-07-09T14:54:50.903259+0930 WARNING No valid recent klines data received for BTCUSDT D
+2024-07-09T14:54:50.928846+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': '8276fe34-85a4-4027-9864-db30889c6f99', 'req_id': '', 'op': 'subscribe'}
+2024-07-09T14:54:50.952098+0930 ERROR Exception fetching klines: 'Config' object has no attribute 'API_URL'
+2024-07-09T14:54:50.973999+0930 WARNING No valid recent klines data received for BTCUSDT W
+2024-07-09T14:54:50.996802+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': '8276fe34-85a4-4027-9864-db30889c6f99', 'req_id': '', 'op': 'subscribe'}
+2024-07-09T14:54:51.048752+0930 ERROR Exception fetching klines: 'Config' object has no attribute 'API_URL'
+2024-07-09T14:54:51.070805+0930 WARNING No valid recent klines data received for BTCUSDT 240
+2024-07-09T14:54:51.093714+0930 ERROR Exception fetching klines: 'Config' object has no attribute 'API_URL'
+2024-07-09T14:54:51.117379+0930 WARNING No valid recent klines data received for BTCUSDT 30
+2024-07-09T14:54:51.141238+0930 ERROR Exception fetching klines: 'Config' object has no attribute 'API_URL'
+2024-07-09T14:54:51.163486+0930 WARNING No valid recent klines data received for BTCUSDT 15
+2024-07-09T14:54:51.190203+0930 ERROR Exception fetching klines: 'Config' object has no attribute 'API_URL'
+2024-07-09T14:54:51.212620+0930 WARNING No valid recent klines data received for BTCUSDT 60
+2024-07-09T14:54:51.238933+0930 ERROR Exception fetching klines: 'Config' object has no attribute 'API_URL'
+2024-07-09T14:54:51.261319+0930 WARNING No valid recent klines data received for BTCUSDT 120
+2024-07-09T14:54:51.308291+0930 ERROR Exception fetching klines: 'Config' object has no attribute 'API_URL'
+2024-07-09T14:54:51.330991+0930 WARNING No valid recent klines data received for BTCUSDT D
+2024-07-09T14:54:51.357506+0930 ERROR Exception fetching klines: 'Config' object has no attribute 'API_URL'
+2024-07-09T14:54:51.380286+0930 WARNING No valid recent klines data received for BTCUSDT W
+2024-07-09T14:54:51.407369+0930 ERROR Exception fetching klines: 'Config' object has no attribute 'API_URL'
+2024-07-09T14:54:51.439380+0930 WARNING No valid recent klines data received for BTCUSDT 1
+2024-07-09T14:54:51.473632+0930 ERROR Exception fetching klines: 'Config' object has no attribute 'API_URL'
+2024-07-09T14:54:51.497500+0930 WARNING No valid recent klines data received for BTCUSDT 5
+2024-07-09T14:54:52.048899+0930 ERROR Exception fetching klines: 'Config' object has no attribute 'API_URL'
+2024-07-09T14:54:52.071315+0930 WARNING No valid recent klines data received for BTCUSDT 15
+2024-07-09T14:54:52.095003+0930 ERROR Exception fetching klines: 'Config' object has no attribute 'API_URL'
+2024-07-09T14:54:52.116772+0930 WARNING No valid recent klines data received for BTCUSDT 60
+2024-07-09T14:54:52.139813+0930 ERROR Exception fetching klines: 'Config' object has no attribute 'API_URL'
+2024-07-09T14:54:52.162108+0930 WARNING No valid recent klines data received for BTCUSDT D
+2024-07-09T14:54:52.186256+0930 ERROR Exception fetching klines: 'Config' object has no attribute 'API_URL'
+2024-07-09T14:54:52.208590+0930 WARNING No valid recent klines data received for BTCUSDT W
+2024-07-09T14:54:52.232473+0930 ERROR Exception fetching klines: 'Config' object has no attribute 'API_URL'
+2024-07-09T14:54:52.254969+0930 WARNING No valid recent klines data received for BTCUSDT 1
+2024-07-09T14:54:52.277995+0930 ERROR Exception fetching klines: 'Config' object has no attribute 'API_URL'
+2024-07-09T14:54:52.302588+0930 WARNING No valid recent klines data received for BTCUSDT 5
+2024-07-09T14:54:52.350226+0930 ERROR Exception fetching klines: 'Config' object has no attribute 'API_URL'
+2024-07-09T14:54:52.373089+0930 WARNING No valid recent klines data received for BTCUSDT 120
+2024-07-09T14:54:52.398054+0930 ERROR Exception fetching klines: 'Config' object has no attribute 'API_URL'
+2024-07-09T14:54:52.476436+0930 WARNING No valid recent klines data received for BTCUSDT 240
+2024-07-09T14:54:52.501421+0930 ERROR Exception fetching klines: 'Config' object has no attribute 'API_URL'
+2024-07-09T14:54:52.524174+0930 WARNING No valid recent klines data received for BTCUSDT 30
+2024-07-09T14:54:53.047692+0930 ERROR Exception fetching klines: 'Config' object has no attribute 'API_URL'
+2024-07-09T14:54:53.070581+0930 WARNING No valid recent klines data received for BTCUSDT 15
+2024-07-09T14:54:53.094005+0930 ERROR Exception fetching klines: 'Config' object has no attribute 'API_URL'
+2024-07-09T14:54:53.120205+0930 WARNING No valid recent klines data received for BTCUSDT 60
+2024-07-09T14:54:53.143500+0930 ERROR Exception fetching klines: 'Config' object has no attribute 'API_URL'
+2024-07-09T14:54:53.166127+0930 WARNING No valid recent klines data received for BTCUSDT D
+2024-07-09T14:54:53.189876+0930 ERROR Exception fetching klines: 'Config' object has no attribute 'API_URL'
+2024-07-09T14:54:53.212002+0930 WARNING No valid recent klines data received for BTCUSDT W
+2024-07-09T14:54:53.235292+0930 ERROR Exception fetching klines: 'Config' object has no attribute 'API_URL'
+2024-07-09T14:54:53.259058+0930 WARNING No valid recent klines data received for BTCUSDT 1
+2024-07-09T14:54:53.282582+0930 ERROR Exception fetching klines: 'Config' object has no attribute 'API_URL'
+2024-07-09T14:54:53.304715+0930 WARNING No valid recent klines data received for BTCUSDT 5
+2024-07-09T14:54:53.328368+0930 ERROR Exception fetching klines: 'Config' object has no attribute 'API_URL'
+2024-07-09T14:54:53.351906+0930 WARNING No valid recent klines data received for BTCUSDT 120
+2024-07-09T14:54:53.397992+0930 ERROR Exception fetching klines: 'Config' object has no attribute 'API_URL'
+2024-07-09T14:54:53.421025+0930 WARNING No valid recent klines data received for BTCUSDT 240
+2024-07-09T14:54:53.444869+0930 ERROR Exception fetching klines: 'Config' object has no attribute 'API_URL'
+2024-07-09T14:54:53.468478+0930 WARNING No valid recent klines data received for BTCUSDT 30
+2024-07-09T14:55:00.331832+0930 INFO Event loop closed
+2024-07-09T14:55:25.380621+0930 ERROR Error fetching klines: 404
+2024-07-09T14:55:25.401037+0930 WARNING No valid recent klines data received for BTCUSDT 1
+2024-07-09T14:55:25.424049+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': '25a1a065-41fd-4b2b-b533-832e6b26bd23', 'req_id': '', 'op': 'subscribe'}
+2024-07-09T14:55:25.577217+0930 ERROR Error fetching klines: 404
+2024-07-09T14:55:25.601225+0930 WARNING No valid recent klines data received for BTCUSDT 5
+2024-07-09T14:55:25.621938+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': '25a1a065-41fd-4b2b-b533-832e6b26bd23', 'req_id': '', 'op': 'subscribe'}
+2024-07-09T14:55:25.981291+0930 ERROR Error fetching klines: 404
+2024-07-09T14:55:26.000457+0930 WARNING No valid recent klines data received for BTCUSDT 15
+2024-07-09T14:55:26.019623+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': '25a1a065-41fd-4b2b-b533-832e6b26bd23', 'req_id': '', 'op': 'subscribe'}
+2024-07-09T14:55:26.168176+0930 ERROR Error fetching klines: 404
+2024-07-09T14:55:26.186373+0930 WARNING No valid recent klines data received for BTCUSDT 30
+2024-07-09T14:55:26.204939+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': '25a1a065-41fd-4b2b-b533-832e6b26bd23', 'req_id': '', 'op': 'subscribe'}
+2024-07-09T14:55:26.560756+0930 ERROR Error fetching klines: 404
+2024-07-09T14:55:26.578339+0930 WARNING No valid recent klines data received for BTCUSDT 60
+2024-07-09T14:55:26.597198+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': '25a1a065-41fd-4b2b-b533-832e6b26bd23', 'req_id': '', 'op': 'subscribe'}
+2024-07-09T14:55:26.949392+0930 ERROR Error fetching klines: 404
+2024-07-09T14:55:26.964874+0930 WARNING No valid recent klines data received for BTCUSDT 120
+2024-07-09T14:55:26.981190+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': '25a1a065-41fd-4b2b-b533-832e6b26bd23', 'req_id': '', 'op': 'subscribe'}
+2024-07-09T14:55:27.127135+0930 ERROR Error fetching klines: 404
+2024-07-09T14:55:27.143266+0930 WARNING No valid recent klines data received for BTCUSDT 240
+2024-07-09T14:55:27.160369+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': '25a1a065-41fd-4b2b-b533-832e6b26bd23', 'req_id': '', 'op': 'subscribe'}
+2024-07-09T14:55:27.308541+0930 ERROR Error fetching klines: 404
+2024-07-09T14:55:27.325247+0930 WARNING No valid recent klines data received for BTCUSDT D
+2024-07-09T14:55:27.342659+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': '25a1a065-41fd-4b2b-b533-832e6b26bd23', 'req_id': '', 'op': 'subscribe'}
+2024-07-09T14:55:27.690185+0930 ERROR Error fetching klines: 404
+2024-07-09T14:55:27.706225+0930 WARNING No valid recent klines data received for BTCUSDT W
+2024-07-09T14:55:27.723050+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': '25a1a065-41fd-4b2b-b533-832e6b26bd23', 'req_id': '', 'op': 'subscribe'}
+2024-07-09T14:55:28.075195+0930 ERROR Error fetching klines: 404
+2024-07-09T14:55:28.092833+0930 WARNING No valid recent klines data received for BTCUSDT 30
+2024-07-09T14:55:28.503309+0930 ERROR Error fetching klines: 404
+2024-07-09T14:55:28.520725+0930 WARNING No valid recent klines data received for BTCUSDT 15
+2024-07-09T14:55:28.960379+0930 ERROR Error fetching klines: 404
+2024-07-09T14:55:28.976423+0930 WARNING No valid recent klines data received for BTCUSDT 60
+2024-07-09T14:55:29.325130+0930 ERROR Error fetching klines: 404
+2024-07-09T14:55:29.342329+0930 WARNING No valid recent klines data received for BTCUSDT 1
+2024-07-09T14:55:29.484734+0930 ERROR Error fetching klines: 404
+2024-07-09T14:55:29.501084+0930 WARNING No valid recent klines data received for BTCUSDT 5
+2024-07-09T14:55:29.697899+0930 ERROR Error fetching klines: 404
+2024-07-09T14:55:29.715417+0930 WARNING No valid recent klines data received for BTCUSDT 120
+2024-07-09T14:55:29.858835+0930 ERROR Error fetching klines: 404
+2024-07-09T14:55:29.876003+0930 WARNING No valid recent klines data received for BTCUSDT D
+2024-07-09T14:55:30.451191+0930 INFO Event loop closed
+2024-07-09T14:56:46.460542+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'c39d6f97-a0d4-497d-ae84-e61ee5c87144', 'req_id': '', 'op': 'subscribe'}
+2024-07-09T14:56:46.622983+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'c39d6f97-a0d4-497d-ae84-e61ee5c87144', 'req_id': '', 'op': 'subscribe'}
+2024-07-09T14:56:46.776375+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'c39d6f97-a0d4-497d-ae84-e61ee5c87144', 'req_id': '', 'op': 'subscribe'}
+2024-07-09T14:56:46.931507+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'c39d6f97-a0d4-497d-ae84-e61ee5c87144', 'req_id': '', 'op': 'subscribe'}
+2024-07-09T14:56:47.296553+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'c39d6f97-a0d4-497d-ae84-e61ee5c87144', 'req_id': '', 'op': 'subscribe'}
+2024-07-09T14:56:47.657611+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'c39d6f97-a0d4-497d-ae84-e61ee5c87144', 'req_id': '', 'op': 'subscribe'}
+2024-07-09T14:56:47.807450+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'c39d6f97-a0d4-497d-ae84-e61ee5c87144', 'req_id': '', 'op': 'subscribe'}
+2024-07-09T14:56:48.165848+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'c39d6f97-a0d4-497d-ae84-e61ee5c87144', 'req_id': '', 'op': 'subscribe'}
+2024-07-09T14:56:48.536812+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'c39d6f97-a0d4-497d-ae84-e61ee5c87144', 'req_id': '', 'op': 'subscribe'}
+2024-07-09T14:57:03.710025+0930 ERROR Error parsing kline message: name 'config' is not defined
+2024-07-09T14:57:19.453773+0930 INFO Event loop closed

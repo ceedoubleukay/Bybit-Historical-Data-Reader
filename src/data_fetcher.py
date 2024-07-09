@@ -22,63 +22,62 @@ async def create_schema(supabase: Client):
     }, upsert=True)
 
 async def fetch_klines(session, symbol, timeframe, start_time, end_time, config):
-  """
-  Fetches kline data from Bybit API and calculates RSI. Handles cases with insufficient data.
+    """
+    Fetches kline data from Bybit API and calculates RSI. Handles cases with insufficient data.
 
-  Args:
-      session (aiohttp.ClientSession): An aiohttp client session.
-      symbol (str): The trading symbol (e.g., BTCUSDT).
-      interval (str): The candlestick timeframe (e.g., "1", "5m", etc.).
-      start_time (datetime.datetime): The start time for fetching data.
-      end_time (datetime.datetime): The end time for fetching data.
-      config (Config): Configuration object containing API details.
+    Args:
+        session (aiohttp.ClientSession): An aiohttp client session.
+        symbol (str): The trading symbol (e.g., BTCUSDT).
+        interval (str): The candlestick timeframe (e.g., "1", "5m", etc.).
+        start_time (datetime.datetime): The start time for fetching data.
+        end_time (datetime.datetime): The end time for fetching data.
+        config (Config): Configuration object containing API details.
 
-  Returns:
-      list: A list of klines with RSI values appended (or None if insufficient data).
-  """
+    Returns:
+        list: A list of klines with RSI values appended (or None if insufficient data).
+    """
 
-  params = {
-      "category": "linear",
-      "symbol": symbol,
-      "interval": timeframe,
-      "start": int(start_time.timestamp() * 1000),
-      "end": int(end_time.timestamp() * 1000),
-      "limit": 1000,  # Adjust limit based on your needs
-  }
-  url = f"{config.BYBIT_REST_URL}/v5/market/kline"
-  logger.debug(f"Fetching klines from API: {url}")
-  logger.debug(f"Request parameters: {params}")
+    params = {
+        "category": "linear",
+        "symbol": symbol,
+        "interval": timeframe,
+        "start": int(start_time.timestamp() * 1000),
+        "end": int(end_time.timestamp() * 1000),
+        "limit": 1000,  # Adjust limit based on your needs
+    }
+    url = f"{config.BYBIT_REST_URL}/v5/market/kline"
+    logger.debug(f"Fetching klines from API: {url}")
+    logger.debug(f"Request parameters: {params}")
 
-  async with session.get(url, params=params) as response:
-      logger.debug(f"API response status: {response.status}")
-      if response.status == 200:
-          data = await response.json()
-          logger.debug(f"API response data: {data}")
-          result = data.get('result', {}).get('list', [])
+    async with session.get(url, params=params) as response:
+        logger.debug(f"API response status: {response.status}")
+        if response.status == 200:
+            data = await response.json()
+            logger.debug(f"API response data: {data}")
+            result = data.get('result', {}).get('list', [])
 
-          # Check if data is empty or insufficient for RSI calculation
-          if not result or len(result) < 14:  # Assuming RSI window is 14
-              logger.warning(f"Insufficient data for RSI calculation. Fetched {len(result)} klines (needed at least 14)")
-              return None
+            # Check if data is empty or insufficient for RSI calculation
+            if not result or len(result) < 14:  # Assuming RSI window is 14
+                logger.warning(f"Insufficient data for RSI calculation. Fetched {len(result)} klines (needed at least 14)")
+                return None
 
-          # Log closing prices before calculation
-          closing_prices = [float(k[4]) for k in result]  # Assuming close price is at index 4
-          logger.debug(f"Extracted closing prices: {closing_prices}")
+            # Log closing prices before calculation
+            closing_prices = [float(k[4]) for k in result]  # Assuming close price is at index 4
+            logger.debug(f"Extracted closing prices: {closing_prices}")
 
-          # Calculate RSI and log the value
-          rsi = indicators.calculate_rsi(closing_prices)
-          logger.debug(f"Calculated RSI: {rsi}")
+            # Calculate RSI and log the value
+            rsi = indicators.calculate_rsi(closing_prices)
+            logger.debug(f"Calculated RSI: {rsi}")
 
-          # Append RSI to each kline
-          for kline in result:
-              kline.append(rsi)  # Assuming kline is a mutable list
+            # Append RSI to each kline
+            for kline in result:
+                kline.append(rsi)  # Assuming kline is a mutable list
 
-          return result
-      else:
-          error_message = await response.text()
-          logger.error(f"Failed to fetch klines. Status code: {response.status}, Error message: {error_message}")
-          return []
-
+            return result
+        else:
+            error_message = await response.text()
+            logger.error(f"Failed to fetch klines. Status code: {response.status}, Error message: {error_message}")
+            return []
 
 async def upsert_klines(supabase: Client, klines, symbol, timeframe):
     data = [
@@ -107,35 +106,39 @@ async def upsert_klines(supabase: Client, klines, symbol, timeframe):
     except Exception as e:
         logger.error(f"Error upserting klines to the database: {e}")
 
-async def upsert_klines_websocket(supabase: Client, klines, symbol, timeframe):
-    data = [
-        {
-            'symbol': symbol,
-            'timeframe': timeframe,
-            'datetime': datetime.datetime.fromtimestamp(int(k['start'])/1000).isoformat(),
-            'open': float(k['open']),
-            'high': float(k['high']),
-            'low': float(k['low']),
-            'close': float(k['close']),
-            'volume': float(k['volume']),
-        }
-        for k in klines
-    ]
-    
-    if not data:
-        logger.warning(f"No websocket klines to upsert for {symbol} ({timeframe})")
-        return
-
-    temp_df = pd.DataFrame(data)
-    temp_df.drop_duplicates(subset=['symbol', 'timeframe', 'datetime'], inplace=True)
-    unique_data = temp_df.to_dict('records')
-
+async def upsert_klines_websocket(pool, klines, symbol, timeframe):
     try:
-        response = supabase.table('candles').upsert(unique_data).execute()
-        result = response.data
-        logger.debug(f"Upserted {len(result)} websocket klines to the database.")
+        for kline in klines:
+            # Debug: Print kline data being upserted
+            print(f"Upserting kline data for {symbol} ({timeframe}): {kline}")
+
+            await pool.table('klines').upsert({
+                'symbol': symbol,
+                'timeframe': timeframe,
+                'start': kline['start'],
+                'open': kline['open'],
+                'high': kline['high'],
+                'low': kline['low'],
+                'close': kline['close'],
+                'volume': kline['volume'],
+                'rsi': kline['rsi'],
+                'macd_line': kline['macd']['macd_line'],
+                'signal_line': kline['macd']['signal_line'],
+                'macd_histogram': kline['macd']['histogram'],
+                'middle_band': kline['bollinger_bands']['middle_band'],
+                'upper_band': kline['bollinger_bands']['upper_band'],
+                'lower_band': kline['bollinger_bands']['lower_band'],
+                'sma': kline['sma'],
+                'fib_0_0': kline['fibonacci']['0.0%'],
+                'fib_23_6': kline['fibonacci']['23.6%'],
+                'fib_38_2': kline['fibonacci']['38.2%'],
+                'fib_50_0': kline['fibonacci']['50.0%'],
+                'fib_61_8': kline['fibonacci']['61.8%'],
+                'fib_100_0': kline['fibonacci']['100.0%']
+            })
+        logger.debug(f"Upserted {len(klines)} klines into Supabase")
     except Exception as e:
-        logger.error(f"Error upserting websocket klines to the database: {e}")
+        logger.error(f"Error upserting klines into Supabase: {e}")
 
 # async def fetch_initial_data(symbol, timeframes, start_date, config, batch_size=1440, calculate_rsi_func=indicators.calculate_rsi):
 async def fetch_initial_data(symbol, timeframes, start_date, config, batch_size=1440):
