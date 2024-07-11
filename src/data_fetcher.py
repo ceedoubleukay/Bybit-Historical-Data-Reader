@@ -112,7 +112,8 @@ async def upsert_klines_websocket(pool, klines, symbol, timeframe):
             # Debug: Print kline data being upserted
             print(f"Upserting kline data for {symbol} ({timeframe}): {kline}")
 
-            await pool.table('klines').upsert({
+            # Prepare the data for upsert
+            data = {
                 'symbol': symbol,
                 'timeframe': timeframe,
                 'start': kline['start'],
@@ -135,7 +136,15 @@ async def upsert_klines_websocket(pool, klines, symbol, timeframe):
                 'fib_50_0': kline['fibonacci']['50.0%'],
                 'fib_61_8': kline['fibonacci']['61.8%'],
                 'fib_100_0': kline['fibonacci']['100.0%']
-            })
+            }
+
+            # Perform the upsert operation
+            response = await pool.table('klines').upsert(data).execute()
+            if response.status_code == 200:
+                logger.debug(f"Successfully upserted kline data for {symbol} ({timeframe})")
+            else:
+                logger.error(f"Failed to upsert kline data for {symbol} ({timeframe}): {response}")
+
         logger.debug(f"Upserted {len(klines)} klines into Supabase")
     except Exception as e:
         logger.error(f"Error upserting klines into Supabase: {e}")

@@ -39,7 +39,7 @@ async def subscribe_to_kline(ws, symbol, timeframe):
     logger.debug(f"Sent subscription message: {subscribe_message}")
     logger.debug(f"Subscribed to kline stream for {symbol} ({timeframe})")
 
-async def handle_kline_message(message, pool, symbol, timeframe):
+async def handle_kline_message(message, pool, symbol, timeframe, config, session):
     try:
         data = json.loads(message)
         if 'data' in data and len(data['data']) > 0:
@@ -320,7 +320,7 @@ async def start_websocket_connections(symbols: list, timeframes: list, start_dat
                         data = json.loads(message)
                         if 'topic' in data:
                             current_timeframe = data['topic'].split('.')[1]
-                            kline = await handle_kline_message(message, pool, symbol, current_timeframe)
+                            kline = await handle_kline_message(message, pool, symbol, current_timeframe, config, session)
                         
                             if kline:
                                 # Calculate and update RSI, MACD, Bollinger Bands, and SMA

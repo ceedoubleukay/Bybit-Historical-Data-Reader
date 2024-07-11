@@ -21399,3 +21399,88 @@ TypeError: 'Config' object does not support item assignment
 2024-07-09T14:56:48.536812+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'c39d6f97-a0d4-497d-ae84-e61ee5c87144', 'req_id': '', 'op': 'subscribe'}
 2024-07-09T14:57:03.710025+0930 ERROR Error parsing kline message: name 'config' is not defined
 2024-07-09T14:57:19.453773+0930 INFO Event loop closed
+2024-07-11T13:32:37.144162+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': '494798f6-3f1e-4998-b1e7-1aee80dfa747', 'req_id': '', 'op': 'subscribe'}
+2024-07-11T13:32:37.497154+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': '494798f6-3f1e-4998-b1e7-1aee80dfa747', 'req_id': '', 'op': 'subscribe'}
+2024-07-11T13:32:37.644229+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': '494798f6-3f1e-4998-b1e7-1aee80dfa747', 'req_id': '', 'op': 'subscribe'}
+2024-07-11T13:32:37.792374+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': '494798f6-3f1e-4998-b1e7-1aee80dfa747', 'req_id': '', 'op': 'subscribe'}
+2024-07-11T13:32:37.936859+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': '494798f6-3f1e-4998-b1e7-1aee80dfa747', 'req_id': '', 'op': 'subscribe'}
+2024-07-11T13:32:38.080459+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': '494798f6-3f1e-4998-b1e7-1aee80dfa747', 'req_id': '', 'op': 'subscribe'}
+2024-07-11T13:32:38.435970+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': '494798f6-3f1e-4998-b1e7-1aee80dfa747', 'req_id': '', 'op': 'subscribe'}
+2024-07-11T13:32:38.805640+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': '494798f6-3f1e-4998-b1e7-1aee80dfa747', 'req_id': '', 'op': 'subscribe'}
+2024-07-11T13:32:39.155196+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': '494798f6-3f1e-4998-b1e7-1aee80dfa747', 'req_id': '', 'op': 'subscribe'}
+2024-07-11T13:33:08.268009+0930 ERROR Error parsing kline message: name 'config' is not defined
+2024-07-11T13:34:03.402051+0930 INFO Event loop closed
+2024-07-11T13:37:36.561633+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'd8c57010-30f0-4edb-9e8c-d5748aef6f29', 'req_id': '', 'op': 'subscribe'}
+2024-07-11T13:37:37.025611+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'd8c57010-30f0-4edb-9e8c-d5748aef6f29', 'req_id': '', 'op': 'subscribe'}
+2024-07-11T13:37:37.178700+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'd8c57010-30f0-4edb-9e8c-d5748aef6f29', 'req_id': '', 'op': 'subscribe'}
+2024-07-11T13:37:37.330596+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'd8c57010-30f0-4edb-9e8c-d5748aef6f29', 'req_id': '', 'op': 'subscribe'}
+2024-07-11T13:37:37.686004+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'd8c57010-30f0-4edb-9e8c-d5748aef6f29', 'req_id': '', 'op': 'subscribe'}
+2024-07-11T13:37:37.836956+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'd8c57010-30f0-4edb-9e8c-d5748aef6f29', 'req_id': '', 'op': 'subscribe'}
+2024-07-11T13:37:37.986880+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'd8c57010-30f0-4edb-9e8c-d5748aef6f29', 'req_id': '', 'op': 'subscribe'}
+2024-07-11T13:37:38.343465+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'd8c57010-30f0-4edb-9e8c-d5748aef6f29', 'req_id': '', 'op': 'subscribe'}
+2024-07-11T13:37:38.701234+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'd8c57010-30f0-4edb-9e8c-d5748aef6f29', 'req_id': '', 'op': 'subscribe'}
+2024-07-11T13:38:03.673134+0930 ERROR Error upserting klines into Supabase: object SyncQueryRequestBuilder can't be used in 'await' expression
+2024-07-11T13:38:14.070121+0930 INFO Event loop closed
+2024-07-11T13:38:16.594036+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'ac142407-8060-4d28-821f-47b2e56e8969', 'req_id': '', 'op': 'subscribe'}
+2024-07-11T13:38:16.750284+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'ac142407-8060-4d28-821f-47b2e56e8969', 'req_id': '', 'op': 'subscribe'}
+2024-07-11T13:38:16.904006+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'ac142407-8060-4d28-821f-47b2e56e8969', 'req_id': '', 'op': 'subscribe'}
+2024-07-11T13:38:17.058959+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'ac142407-8060-4d28-821f-47b2e56e8969', 'req_id': '', 'op': 'subscribe'}
+2024-07-11T13:38:17.214060+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'ac142407-8060-4d28-821f-47b2e56e8969', 'req_id': '', 'op': 'subscribe'}
+2024-07-11T13:38:17.369318+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'ac142407-8060-4d28-821f-47b2e56e8969', 'req_id': '', 'op': 'subscribe'}
+2024-07-11T13:38:17.525239+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'ac142407-8060-4d28-821f-47b2e56e8969', 'req_id': '', 'op': 'subscribe'}
+2024-07-11T13:38:17.888527+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'ac142407-8060-4d28-821f-47b2e56e8969', 'req_id': '', 'op': 'subscribe'}
+2024-07-11T13:38:18.252127+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'ac142407-8060-4d28-821f-47b2e56e8969', 'req_id': '', 'op': 'subscribe'}
+2024-07-11T13:39:07.888582+0930 ERROR Error upserting klines into Supabase: object SyncQueryRequestBuilder can't be used in 'await' expression
+2024-07-11T13:39:55.016255+0930 INFO Event loop closed
+2024-07-11T13:40:00.613704+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': '9af0d7e0-68f9-49a4-886b-515f0cd76df8', 'req_id': '', 'op': 'subscribe'}
+2024-07-11T13:40:00.768062+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': '9af0d7e0-68f9-49a4-886b-515f0cd76df8', 'req_id': '', 'op': 'subscribe'}
+2024-07-11T13:40:00.921039+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': '9af0d7e0-68f9-49a4-886b-515f0cd76df8', 'req_id': '', 'op': 'subscribe'}
+2024-07-11T13:40:01.077175+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': '9af0d7e0-68f9-49a4-886b-515f0cd76df8', 'req_id': '', 'op': 'subscribe'}
+2024-07-11T13:40:01.234910+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': '9af0d7e0-68f9-49a4-886b-515f0cd76df8', 'req_id': '', 'op': 'subscribe'}
+2024-07-11T13:40:01.387839+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': '9af0d7e0-68f9-49a4-886b-515f0cd76df8', 'req_id': '', 'op': 'subscribe'}
+2024-07-11T13:40:01.541106+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': '9af0d7e0-68f9-49a4-886b-515f0cd76df8', 'req_id': '', 'op': 'subscribe'}
+2024-07-11T13:40:01.700587+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': '9af0d7e0-68f9-49a4-886b-515f0cd76df8', 'req_id': '', 'op': 'subscribe'}
+2024-07-11T13:40:01.856680+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': '9af0d7e0-68f9-49a4-886b-515f0cd76df8', 'req_id': '', 'op': 'subscribe'}
+2024-07-11T13:40:02.049182+0930 ERROR Error upserting klines into Supabase: object SyncQueryRequestBuilder can't be used in 'await' expression
+2024-07-11T13:40:02.761541+0930 ERROR Error upserting klines into Supabase: object SyncQueryRequestBuilder can't be used in 'await' expression
+2024-07-11T13:40:11.795464+0930 INFO Event loop closed
+2024-07-11T13:40:18.237433+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'b0df5ede-1d24-4a76-a70c-8f6c66a462c3', 'req_id': '', 'op': 'subscribe'}
+2024-07-11T13:40:18.396229+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'b0df5ede-1d24-4a76-a70c-8f6c66a462c3', 'req_id': '', 'op': 'subscribe'}
+2024-07-11T13:40:18.547443+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'b0df5ede-1d24-4a76-a70c-8f6c66a462c3', 'req_id': '', 'op': 'subscribe'}
+2024-07-11T13:40:18.700903+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'b0df5ede-1d24-4a76-a70c-8f6c66a462c3', 'req_id': '', 'op': 'subscribe'}
+2024-07-11T13:40:18.852922+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'b0df5ede-1d24-4a76-a70c-8f6c66a462c3', 'req_id': '', 'op': 'subscribe'}
+2024-07-11T13:40:19.010166+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'b0df5ede-1d24-4a76-a70c-8f6c66a462c3', 'req_id': '', 'op': 'subscribe'}
+2024-07-11T13:40:19.165091+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'b0df5ede-1d24-4a76-a70c-8f6c66a462c3', 'req_id': '', 'op': 'subscribe'}
+2024-07-11T13:40:19.522141+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'b0df5ede-1d24-4a76-a70c-8f6c66a462c3', 'req_id': '', 'op': 'subscribe'}
+2024-07-11T13:40:19.675436+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'b0df5ede-1d24-4a76-a70c-8f6c66a462c3', 'req_id': '', 'op': 'subscribe'}
+2024-07-11T13:41:05.660696+0930 ERROR Error upserting klines into Supabase: object SyncQueryRequestBuilder can't be used in 'await' expression
+2024-07-11T13:42:15.269355+0930 ERROR Error upserting klines into Supabase: object SyncQueryRequestBuilder can't be used in 'await' expression
+2024-07-11T13:42:18.357441+0930 INFO Event loop closed
+2024-07-11T13:42:25.105524+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': '01781244-eed3-44d0-a984-84d1a9885f99', 'req_id': '', 'op': 'subscribe'}
+2024-07-11T13:42:25.462247+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': '01781244-eed3-44d0-a984-84d1a9885f99', 'req_id': '', 'op': 'subscribe'}
+2024-07-11T13:42:25.611889+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': '01781244-eed3-44d0-a984-84d1a9885f99', 'req_id': '', 'op': 'subscribe'}
+2024-07-11T13:42:25.767308+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': '01781244-eed3-44d0-a984-84d1a9885f99', 'req_id': '', 'op': 'subscribe'}
+2024-07-11T13:42:25.923192+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': '01781244-eed3-44d0-a984-84d1a9885f99', 'req_id': '', 'op': 'subscribe'}
+2024-07-11T13:42:26.077058+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': '01781244-eed3-44d0-a984-84d1a9885f99', 'req_id': '', 'op': 'subscribe'}
+2024-07-11T13:42:26.247575+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': '01781244-eed3-44d0-a984-84d1a9885f99', 'req_id': '', 'op': 'subscribe'}
+2024-07-11T13:42:26.609606+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': '01781244-eed3-44d0-a984-84d1a9885f99', 'req_id': '', 'op': 'subscribe'}
+2024-07-11T13:42:26.964680+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': '01781244-eed3-44d0-a984-84d1a9885f99', 'req_id': '', 'op': 'subscribe'}
+2024-07-11T13:43:10.592899+0930 ERROR Error upserting klines into Supabase: object SyncQueryRequestBuilder can't be used in 'await' expression
+2024-07-11T13:44:12.630081+0930 ERROR Error upserting klines into Supabase: object SyncQueryRequestBuilder can't be used in 'await' expression
+2024-07-11T13:45:14.697295+0930 ERROR Error upserting klines into Supabase: object SyncQueryRequestBuilder can't be used in 'await' expression
+2024-07-11T13:45:15.269266+0930 ERROR Error upserting klines into Supabase: object SyncQueryRequestBuilder can't be used in 'await' expression
+2024-07-11T13:45:15.573885+0930 ERROR Error upserting klines into Supabase: object SyncQueryRequestBuilder can't be used in 'await' expression
+2024-07-11T13:45:49.431129+0930 INFO Event loop closed
+2024-07-11T13:48:04.096714+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'e628dc1e-8b2f-4043-a92c-386017b6ac2c', 'req_id': '', 'op': 'subscribe'}
+2024-07-11T13:48:04.250359+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'e628dc1e-8b2f-4043-a92c-386017b6ac2c', 'req_id': '', 'op': 'subscribe'}
+2024-07-11T13:48:04.405070+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'e628dc1e-8b2f-4043-a92c-386017b6ac2c', 'req_id': '', 'op': 'subscribe'}
+2024-07-11T13:48:04.556533+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'e628dc1e-8b2f-4043-a92c-386017b6ac2c', 'req_id': '', 'op': 'subscribe'}
+2024-07-11T13:48:04.710733+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'e628dc1e-8b2f-4043-a92c-386017b6ac2c', 'req_id': '', 'op': 'subscribe'}
+2024-07-11T13:48:04.882406+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'e628dc1e-8b2f-4043-a92c-386017b6ac2c', 'req_id': '', 'op': 'subscribe'}
+2024-07-11T13:48:05.036449+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'e628dc1e-8b2f-4043-a92c-386017b6ac2c', 'req_id': '', 'op': 'subscribe'}
+2024-07-11T13:48:05.398078+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'e628dc1e-8b2f-4043-a92c-386017b6ac2c', 'req_id': '', 'op': 'subscribe'}
+2024-07-11T13:48:05.774703+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'e628dc1e-8b2f-4043-a92c-386017b6ac2c', 'req_id': '', 'op': 'subscribe'}
+2024-07-11T13:49:13.444076+0930 ERROR Error upserting klines into Supabase: {}
+2024-07-11T13:50:20.580393+0930 ERROR Error upserting klines into Supabase: {}
+2024-07-11T13:50:21.012474+0930 ERROR Error upserting klines into Supabase: {}
+2024-07-11T13:51:19.858027+0930 ERROR Error upserting klines into Supabase: {}
