@@ -14,12 +14,14 @@ def create_dashboard(symbols_data):
     table.add_column("Low", style="red")
     table.add_column("Close", style="yellow")
     table.add_column("Volume", style="blue")
+    table.add_column("RSI", style="purple")  # Added RSI column
     
     for symbol, timeframes in symbols_data.items():
         for timeframe, data in timeframes.items():
             kline = data['kline']
             is_healthy = data['is_healthy']
             health_status = "🟢" if is_healthy else "🔴"
+            rsi = data.get('rsi', 'NaN')  # Get RSI value, default to 'N/A' if not present
             
             if kline:
                 # Handle both Unix timestamp and ISO format
@@ -37,9 +39,10 @@ def create_dashboard(symbols_data):
                     str(kline['high']),
                     str(kline['low']),
                     str(kline['close']),
-                    str(kline['volume'])
+                    str(kline['volume']),
+                    str(rsi)  # Add RSI value to the row
                 )
             else:
-                table.add_row(str(symbol), str(timeframe), health_status, "", "", "", "", "", "")
+                table.add_row(str(symbol), str(timeframe), health_status, "", "", "", "", "", "", str(rsi))
     
     return Panel(table)

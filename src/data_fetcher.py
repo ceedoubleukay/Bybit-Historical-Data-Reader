@@ -75,7 +75,7 @@ async def upsert_klines_websocket(supabase: Client, klines, symbol, timeframe):
         {
             'symbol': symbol,
             'timeframe': timeframe,
-            'datetime': datetime.datetime.fromtimestamp(int(k['start'])/1000).isoformat(),
+            'datetime': datetime.datetime.fromtimestamp(k['start']).isoformat(),  # Convert timestamp to ISO format
             'open': float(k['open']),
             'high': float(k['high']),
             'low': float(k['low']),
@@ -86,7 +86,7 @@ async def upsert_klines_websocket(supabase: Client, klines, symbol, timeframe):
     ]
     
     if not data:
-        logger.warning(f"No websocket klines to upsert for {symbol} ({timeframe})")
+        logger.info(f"No websocket klines to upsert for {symbol} ({timeframe})")
         return
 
     temp_df = pd.DataFrame(data)
@@ -99,6 +99,8 @@ async def upsert_klines_websocket(supabase: Client, klines, symbol, timeframe):
         logger.debug(f"Upserted {len(result)} websocket klines to the database.")
     except Exception as e:
         logger.error(f"Error upserting websocket klines to the database: {e}")
+        logger.error(f"Error details: {type(e).__name__}: {str(e)}")
+        logger.error(f"Error traceback: {traceback.format_exc()}")
 
 async def fetch_initial_data(symbol, timeframes, start_date, config, batch_size=1440):
     logger.debug(f"Fetching initial data for {symbol} (timeframes: {timeframes}) from {start_date} with batch size {batch_size}")

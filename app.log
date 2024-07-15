@@ -1,0 +1,251 @@
+2024-07-15T21:11:01.987373+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'd054496a-1367-4848-9b00-8522480946d7', 'req_id': '', 'op': 'subscribe'}
+2024-07-15T21:11:01.995920+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'd054496a-1367-4848-9b00-8522480946d7', 'req_id': '', 'op': 'subscribe'}
+2024-07-15T21:11:02.003384+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'd054496a-1367-4848-9b00-8522480946d7', 'req_id': '', 'op': 'subscribe'}
+2024-07-15T21:11:02.011327+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'd054496a-1367-4848-9b00-8522480946d7', 'req_id': '', 'op': 'subscribe'}
+2024-07-15T21:11:02.018617+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'd054496a-1367-4848-9b00-8522480946d7', 'req_id': '', 'op': 'subscribe'}
+2024-07-15T21:11:02.026584+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'd054496a-1367-4848-9b00-8522480946d7', 'req_id': '', 'op': 'subscribe'}
+2024-07-15T21:11:02.034031+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'd054496a-1367-4848-9b00-8522480946d7', 'req_id': '', 'op': 'subscribe'}
+2024-07-15T21:11:02.041444+0930 WARNING Unsupported timeframe: D
+2024-07-15T21:11:02.048868+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'd054496a-1367-4848-9b00-8522480946d7', 'req_id': '', 'op': 'subscribe'}
+2024-07-15T21:11:02.056109+0930 WARNING Unsupported timeframe: W
+2024-07-15T21:11:02.063476+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'd054496a-1367-4848-9b00-8522480946d7', 'req_id': '', 'op': 'subscribe'}
+2024-07-15T21:11:02.090874+0930 WARNING Unsupported timeframe: D
+2024-07-15T21:11:02.098607+0930 WARNING Unsupported timeframe: W
+2024-07-15T21:11:03.038915+0930 WARNING Unsupported timeframe: D
+2024-07-15T21:11:03.046718+0930 WARNING Unsupported timeframe: W
+2024-07-15T21:11:05.037646+0930 WARNING Unsupported timeframe: D
+2024-07-15T21:11:05.045249+0930 WARNING Unsupported timeframe: W
+2024-07-15T21:11:06.038359+0930 WARNING Unsupported timeframe: D
+2024-07-15T21:11:06.046426+0930 WARNING Unsupported timeframe: W
+2024-07-15T21:11:07.036680+0930 WARNING Unsupported timeframe: D
+2024-07-15T21:11:07.045917+0930 WARNING Unsupported timeframe: W
+2024-07-15T21:11:08.039978+0930 WARNING Unsupported timeframe: D
+2024-07-15T21:11:08.047790+0930 WARNING Unsupported timeframe: W
+2024-07-15T21:11:09.039099+0930 WARNING Unsupported timeframe: D
+2024-07-15T21:11:09.047028+0930 WARNING Unsupported timeframe: W
+2024-07-15T21:11:10.039147+0930 WARNING Unsupported timeframe: D
+2024-07-15T21:11:10.046918+0930 WARNING Unsupported timeframe: W
+2024-07-15T21:11:11.051042+0930 WARNING Unsupported timeframe: D
+2024-07-15T21:11:11.059532+0930 WARNING Unsupported timeframe: W
+2024-07-15T21:11:13.038882+0930 WARNING Unsupported timeframe: D
+2024-07-15T21:11:13.046861+0930 WARNING Unsupported timeframe: W
+2024-07-15T21:11:14.038682+0930 WARNING Unsupported timeframe: W
+2024-07-15T21:11:14.048282+0930 WARNING Unsupported timeframe: D
+2024-07-15T21:11:15.037475+0930 WARNING Unsupported timeframe: D
+2024-07-15T21:11:15.045711+0930 WARNING Unsupported timeframe: W
+2024-07-15T21:11:16.040576+0930 WARNING Unsupported timeframe: D
+2024-07-15T21:11:16.048896+0930 WARNING Unsupported timeframe: W
+2024-07-15T21:11:17.038124+0930 WARNING Unsupported timeframe: D
+2024-07-15T21:11:17.046656+0930 WARNING Unsupported timeframe: W
+2024-07-15T21:11:19.037526+0930 WARNING Unsupported timeframe: D
+2024-07-15T21:11:19.045931+0930 WARNING Unsupported timeframe: W
+2024-07-15T21:11:20.038032+0930 WARNING Unsupported timeframe: D
+2024-07-15T21:11:20.048049+0930 WARNING Unsupported timeframe: W
+2024-07-15T21:11:21.039013+0930 WARNING Unsupported timeframe: D
+2024-07-15T21:11:21.046576+0930 WARNING Unsupported timeframe: W
+2024-07-15T21:11:22.039846+0930 WARNING Unsupported timeframe: D
+2024-07-15T21:11:22.047537+0930 WARNING Unsupported timeframe: W
+2024-07-15T21:11:23.038633+0930 WARNING Unsupported timeframe: D
+2024-07-15T21:11:23.046499+0930 WARNING Unsupported timeframe: W
+2024-07-15T21:11:24.041783+0930 WARNING Unsupported timeframe: D
+2024-07-15T21:11:24.049313+0930 WARNING Unsupported timeframe: W
+2024-07-15T21:11:25.046414+0930 WARNING Unsupported timeframe: D
+2024-07-15T21:11:25.055212+0930 WARNING Unsupported timeframe: W
+2024-07-15T21:11:26.039306+0930 WARNING Unsupported timeframe: D
+2024-07-15T21:11:26.054761+0930 WARNING Unsupported timeframe: W
+2024-07-15T21:11:27.039047+0930 WARNING Unsupported timeframe: D
+2024-07-15T21:11:27.047077+0930 WARNING Unsupported timeframe: W
+2024-07-15T21:11:28.039028+0930 WARNING Unsupported timeframe: D
+2024-07-15T21:11:28.046916+0930 WARNING Unsupported timeframe: W
+2024-07-15T21:11:29.039613+0930 WARNING Unsupported timeframe: D
+2024-07-15T21:11:29.047392+0930 WARNING Unsupported timeframe: W
+2024-07-15T21:11:30.037392+0930 WARNING Unsupported timeframe: D
+2024-07-15T21:11:30.045729+0930 WARNING Unsupported timeframe: W
+2024-07-15T21:11:31.038897+0930 WARNING Unsupported timeframe: D
+2024-07-15T21:11:31.046862+0930 WARNING Unsupported timeframe: W
+2024-07-15T21:11:32.038317+0930 WARNING Unsupported timeframe: D
+2024-07-15T21:11:32.046719+0930 WARNING Unsupported timeframe: W
+2024-07-15T21:11:33.038807+0930 WARNING Unsupported timeframe: D
+2024-07-15T21:11:33.046570+0930 WARNING Unsupported timeframe: W
+2024-07-15T21:11:34.035628+0930 WARNING Unsupported timeframe: D
+2024-07-15T21:11:34.044093+0930 WARNING Unsupported timeframe: W
+2024-07-15T21:11:35.035808+0930 WARNING Unsupported timeframe: D
+2024-07-15T21:11:35.043955+0930 WARNING Unsupported timeframe: W
+2024-07-15T21:11:36.035892+0930 WARNING Unsupported timeframe: D
+2024-07-15T21:11:36.044854+0930 WARNING Unsupported timeframe: W
+2024-07-15T21:11:37.038641+0930 WARNING Unsupported timeframe: D
+2024-07-15T21:11:37.046599+0930 WARNING Unsupported timeframe: W
+2024-07-15T21:11:38.040314+0930 WARNING Unsupported timeframe: D
+2024-07-15T21:11:38.051207+0930 WARNING Unsupported timeframe: W
+2024-07-15T21:11:39.037920+0930 WARNING Unsupported timeframe: D
+2024-07-15T21:11:39.045705+0930 WARNING Unsupported timeframe: W
+2024-07-15T21:11:40.036785+0930 WARNING Unsupported timeframe: D
+2024-07-15T21:11:40.045580+0930 WARNING Unsupported timeframe: W
+2024-07-15T21:11:41.038178+0930 WARNING Unsupported timeframe: D
+2024-07-15T21:11:41.046161+0930 WARNING Unsupported timeframe: W
+2024-07-15T21:11:42.037155+0930 WARNING Unsupported timeframe: D
+2024-07-15T21:11:42.044815+0930 WARNING Unsupported timeframe: W
+2024-07-15T21:11:43.048680+0930 WARNING Unsupported timeframe: D
+2024-07-15T21:11:43.056507+0930 WARNING Unsupported timeframe: W
+2024-07-15T21:11:44.040079+0930 WARNING Unsupported timeframe: D
+2024-07-15T21:11:44.047833+0930 WARNING Unsupported timeframe: W
+2024-07-15T21:11:45.037636+0930 WARNING Unsupported timeframe: D
+2024-07-15T21:11:45.045501+0930 WARNING Unsupported timeframe: W
+2024-07-15T21:11:46.036924+0930 WARNING Unsupported timeframe: D
+2024-07-15T21:11:46.045351+0930 WARNING Unsupported timeframe: W
+2024-07-15T21:11:48.038980+0930 WARNING Unsupported timeframe: W
+2024-07-15T21:11:48.048737+0930 WARNING Unsupported timeframe: D
+2024-07-15T21:11:49.036250+0930 WARNING Unsupported timeframe: D
+2024-07-15T21:11:49.044519+0930 WARNING Unsupported timeframe: W
+2024-07-15T21:11:50.038252+0930 WARNING Unsupported timeframe: W
+2024-07-15T21:11:50.047988+0930 WARNING Unsupported timeframe: D
+2024-07-15T21:11:51.037750+0930 WARNING Unsupported timeframe: D
+2024-07-15T21:11:51.045531+0930 WARNING Unsupported timeframe: W
+2024-07-15T21:11:52.036581+0930 WARNING Unsupported timeframe: D
+2024-07-15T21:11:52.044485+0930 WARNING Unsupported timeframe: W
+2024-07-15T21:11:53.037018+0930 WARNING Unsupported timeframe: W
+2024-07-15T21:11:53.046137+0930 WARNING Unsupported timeframe: D
+2024-07-15T21:11:54.038998+0930 WARNING Unsupported timeframe: D
+2024-07-15T21:11:54.047305+0930 WARNING Unsupported timeframe: W
+2024-07-15T21:11:55.037691+0930 WARNING Unsupported timeframe: D
+2024-07-15T21:11:55.045428+0930 WARNING Unsupported timeframe: W
+2024-07-15T21:11:56.039285+0930 WARNING Unsupported timeframe: D
+2024-07-15T21:11:56.047342+0930 WARNING Unsupported timeframe: W
+2024-07-15T21:11:57.038522+0930 WARNING Unsupported timeframe: D
+2024-07-15T21:11:57.046386+0930 WARNING Unsupported timeframe: W
+2024-07-15T21:11:58.039412+0930 WARNING Unsupported timeframe: D
+2024-07-15T21:11:58.047346+0930 WARNING Unsupported timeframe: W
+2024-07-15T21:11:59.038785+0930 WARNING Unsupported timeframe: D
+2024-07-15T21:11:59.046525+0930 WARNING Unsupported timeframe: W
+2024-07-15T21:11:59.053863+0930 ERROR Error parsing kline message: invalid literal for int() with base 10: '2024-07-15T21:11:00'
+2024-07-15T21:12:00.036943+0930 WARNING Unsupported timeframe: D
+2024-07-15T21:12:00.044853+0930 WARNING Unsupported timeframe: W
+2024-07-15T21:12:01.036855+0930 WARNING Unsupported timeframe: D
+2024-07-15T21:12:01.044705+0930 WARNING Unsupported timeframe: W
+2024-07-15T21:12:02.038067+0930 WARNING Unsupported timeframe: D
+2024-07-15T21:12:02.045909+0930 WARNING Unsupported timeframe: W
+2024-07-15T21:12:03.037676+0930 WARNING Unsupported timeframe: D
+2024-07-15T21:12:03.045440+0930 WARNING Unsupported timeframe: W
+2024-07-15T21:12:04.039193+0930 WARNING Unsupported timeframe: D
+2024-07-15T21:12:04.046872+0930 WARNING Unsupported timeframe: W
+2024-07-15T21:12:05.034794+0930 INFO Event loop closed
+2024-07-15T21:14:24.286441+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'e2e2910a-e5de-4ae2-af5c-a17dc1564046', 'req_id': '', 'op': 'subscribe'}
+2024-07-15T21:14:24.294561+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'e2e2910a-e5de-4ae2-af5c-a17dc1564046', 'req_id': '', 'op': 'subscribe'}
+2024-07-15T21:14:24.302386+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'e2e2910a-e5de-4ae2-af5c-a17dc1564046', 'req_id': '', 'op': 'subscribe'}
+2024-07-15T21:14:24.310386+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'e2e2910a-e5de-4ae2-af5c-a17dc1564046', 'req_id': '', 'op': 'subscribe'}
+2024-07-15T21:14:24.317977+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'e2e2910a-e5de-4ae2-af5c-a17dc1564046', 'req_id': '', 'op': 'subscribe'}
+2024-07-15T21:14:24.328070+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'e2e2910a-e5de-4ae2-af5c-a17dc1564046', 'req_id': '', 'op': 'subscribe'}
+2024-07-15T21:14:24.340723+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'e2e2910a-e5de-4ae2-af5c-a17dc1564046', 'req_id': '', 'op': 'subscribe'}
+2024-07-15T21:14:24.352146+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'e2e2910a-e5de-4ae2-af5c-a17dc1564046', 'req_id': '', 'op': 'subscribe'}
+2024-07-15T21:14:24.362093+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'e2e2910a-e5de-4ae2-af5c-a17dc1564046', 'req_id': '', 'op': 'subscribe'}
+2024-07-15T21:14:59.034349+0930 ERROR Error parsing kline message: invalid literal for int() with base 10: '2024-07-15T21:00:00'
+2024-07-15T21:14:59.043256+0930 ERROR Error parsing kline message: invalid literal for int() with base 10: '2024-07-15T21:14:00'
+2024-07-15T21:14:59.050780+0930 ERROR Error parsing kline message: invalid literal for int() with base 10: '2024-07-15T21:10:00'
+2024-07-15T21:15:08.339912+0930 INFO Event loop closed
+2024-07-15T21:15:55.982574+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'cfebf41a-5f68-4410-ba12-254bc6f059e2', 'req_id': '', 'op': 'subscribe'}
+2024-07-15T21:15:55.991160+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'cfebf41a-5f68-4410-ba12-254bc6f059e2', 'req_id': '', 'op': 'subscribe'}
+2024-07-15T21:15:55.999007+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'cfebf41a-5f68-4410-ba12-254bc6f059e2', 'req_id': '', 'op': 'subscribe'}
+2024-07-15T21:15:56.007353+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'cfebf41a-5f68-4410-ba12-254bc6f059e2', 'req_id': '', 'op': 'subscribe'}
+2024-07-15T21:15:56.015239+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'cfebf41a-5f68-4410-ba12-254bc6f059e2', 'req_id': '', 'op': 'subscribe'}
+2024-07-15T21:15:56.023069+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'cfebf41a-5f68-4410-ba12-254bc6f059e2', 'req_id': '', 'op': 'subscribe'}
+2024-07-15T21:15:56.031095+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'cfebf41a-5f68-4410-ba12-254bc6f059e2', 'req_id': '', 'op': 'subscribe'}
+2024-07-15T21:15:56.039375+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'cfebf41a-5f68-4410-ba12-254bc6f059e2', 'req_id': '', 'op': 'subscribe'}
+2024-07-15T21:15:56.047330+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'cfebf41a-5f68-4410-ba12-254bc6f059e2', 'req_id': '', 'op': 'subscribe'}
+2024-07-15T21:15:59.031921+0930 ERROR Error parsing kline message: invalid literal for int() with base 10: '2024-07-15T21:15:00'
+2024-07-15T21:16:47.443989+0930 INFO Event loop closed
+2024-07-15T21:16:53.776721+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': '660cf85e-2c4b-46a0-97ab-641bd6fc9abd', 'req_id': '', 'op': 'subscribe'}
+2024-07-15T21:16:53.786227+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': '660cf85e-2c4b-46a0-97ab-641bd6fc9abd', 'req_id': '', 'op': 'subscribe'}
+2024-07-15T21:16:53.794088+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': '660cf85e-2c4b-46a0-97ab-641bd6fc9abd', 'req_id': '', 'op': 'subscribe'}
+2024-07-15T21:16:53.802116+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': '660cf85e-2c4b-46a0-97ab-641bd6fc9abd', 'req_id': '', 'op': 'subscribe'}
+2024-07-15T21:16:53.810382+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': '660cf85e-2c4b-46a0-97ab-641bd6fc9abd', 'req_id': '', 'op': 'subscribe'}
+2024-07-15T21:16:53.818211+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': '660cf85e-2c4b-46a0-97ab-641bd6fc9abd', 'req_id': '', 'op': 'subscribe'}
+2024-07-15T21:16:53.826613+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': '660cf85e-2c4b-46a0-97ab-641bd6fc9abd', 'req_id': '', 'op': 'subscribe'}
+2024-07-15T21:16:53.836628+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': '660cf85e-2c4b-46a0-97ab-641bd6fc9abd', 'req_id': '', 'op': 'subscribe'}
+2024-07-15T21:16:53.846560+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': '660cf85e-2c4b-46a0-97ab-641bd6fc9abd', 'req_id': '', 'op': 'subscribe'}
+2024-07-15T21:16:59.029704+0930 ERROR Error parsing kline message: invalid literal for int() with base 10: '2024-07-15T21:16:00'
+2024-07-15T21:17:57.361236+0930 INFO Event loop closed
+2024-07-15T21:17:59.441036+0930 ERROR Error parsing kline message: invalid literal for int() with base 10: '2024-07-15T21:17:00'
+2024-07-15T21:17:59.449137+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'ac9f11e3-4160-4a33-9258-724516307916', 'req_id': '', 'op': 'subscribe'}
+2024-07-15T21:17:59.456976+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'ac9f11e3-4160-4a33-9258-724516307916', 'req_id': '', 'op': 'subscribe'}
+2024-07-15T21:17:59.465141+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'ac9f11e3-4160-4a33-9258-724516307916', 'req_id': '', 'op': 'subscribe'}
+2024-07-15T21:17:59.473428+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'ac9f11e3-4160-4a33-9258-724516307916', 'req_id': '', 'op': 'subscribe'}
+2024-07-15T21:17:59.481205+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'ac9f11e3-4160-4a33-9258-724516307916', 'req_id': '', 'op': 'subscribe'}
+2024-07-15T21:17:59.489811+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'ac9f11e3-4160-4a33-9258-724516307916', 'req_id': '', 'op': 'subscribe'}
+2024-07-15T21:17:59.497838+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'ac9f11e3-4160-4a33-9258-724516307916', 'req_id': '', 'op': 'subscribe'}
+2024-07-15T21:17:59.507002+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'ac9f11e3-4160-4a33-9258-724516307916', 'req_id': '', 'op': 'subscribe'}
+2024-07-15T21:17:59.515673+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'ac9f11e3-4160-4a33-9258-724516307916', 'req_id': '', 'op': 'subscribe'}
+2024-07-15T21:18:53.852575+0930 INFO Event loop closed
+2024-07-15T21:18:57.190019+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': '317d903e-df76-4c09-98fc-e177233c80ec', 'req_id': '', 'op': 'subscribe'}
+2024-07-15T21:18:57.205092+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': '317d903e-df76-4c09-98fc-e177233c80ec', 'req_id': '', 'op': 'subscribe'}
+2024-07-15T21:18:57.219579+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': '317d903e-df76-4c09-98fc-e177233c80ec', 'req_id': '', 'op': 'subscribe'}
+2024-07-15T21:18:57.234007+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': '317d903e-df76-4c09-98fc-e177233c80ec', 'req_id': '', 'op': 'subscribe'}
+2024-07-15T21:18:57.248930+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': '317d903e-df76-4c09-98fc-e177233c80ec', 'req_id': '', 'op': 'subscribe'}
+2024-07-15T21:18:57.263842+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': '317d903e-df76-4c09-98fc-e177233c80ec', 'req_id': '', 'op': 'subscribe'}
+2024-07-15T21:18:57.278828+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': '317d903e-df76-4c09-98fc-e177233c80ec', 'req_id': '', 'op': 'subscribe'}
+2024-07-15T21:18:57.294159+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': '317d903e-df76-4c09-98fc-e177233c80ec', 'req_id': '', 'op': 'subscribe'}
+2024-07-15T21:18:57.315592+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': '317d903e-df76-4c09-98fc-e177233c80ec', 'req_id': '', 'op': 'subscribe'}
+2024-07-15T21:19:05.027835+0930 INFO Event loop closed
+2024-07-15T21:19:51.868705+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': '67a22f48-549d-47e9-897e-a7d750fd6896', 'req_id': '', 'op': 'subscribe'}
+2024-07-15T21:19:51.883848+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': '67a22f48-549d-47e9-897e-a7d750fd6896', 'req_id': '', 'op': 'subscribe'}
+2024-07-15T21:19:51.898540+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': '67a22f48-549d-47e9-897e-a7d750fd6896', 'req_id': '', 'op': 'subscribe'}
+2024-07-15T21:19:51.913997+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': '67a22f48-549d-47e9-897e-a7d750fd6896', 'req_id': '', 'op': 'subscribe'}
+2024-07-15T21:19:51.929204+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': '67a22f48-549d-47e9-897e-a7d750fd6896', 'req_id': '', 'op': 'subscribe'}
+2024-07-15T21:19:51.944993+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': '67a22f48-549d-47e9-897e-a7d750fd6896', 'req_id': '', 'op': 'subscribe'}
+2024-07-15T21:19:51.960558+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': '67a22f48-549d-47e9-897e-a7d750fd6896', 'req_id': '', 'op': 'subscribe'}
+2024-07-15T21:19:51.976008+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': '67a22f48-549d-47e9-897e-a7d750fd6896', 'req_id': '', 'op': 'subscribe'}
+2024-07-15T21:19:51.991994+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': '67a22f48-549d-47e9-897e-a7d750fd6896', 'req_id': '', 'op': 'subscribe'}
+2024-07-15T21:20:03.145075+0930 INFO Event loop closed
+2024-07-15T21:20:49.817230+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'ed1bd844-5c29-470e-a900-f34a9f40cedd', 'req_id': '', 'op': 'subscribe'}
+2024-07-15T21:20:49.832130+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'ed1bd844-5c29-470e-a900-f34a9f40cedd', 'req_id': '', 'op': 'subscribe'}
+2024-07-15T21:20:49.847063+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'ed1bd844-5c29-470e-a900-f34a9f40cedd', 'req_id': '', 'op': 'subscribe'}
+2024-07-15T21:20:49.861807+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'ed1bd844-5c29-470e-a900-f34a9f40cedd', 'req_id': '', 'op': 'subscribe'}
+2024-07-15T21:20:49.877474+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'ed1bd844-5c29-470e-a900-f34a9f40cedd', 'req_id': '', 'op': 'subscribe'}
+2024-07-15T21:20:49.892702+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'ed1bd844-5c29-470e-a900-f34a9f40cedd', 'req_id': '', 'op': 'subscribe'}
+2024-07-15T21:20:49.908142+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'ed1bd844-5c29-470e-a900-f34a9f40cedd', 'req_id': '', 'op': 'subscribe'}
+2024-07-15T21:20:49.923594+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'ed1bd844-5c29-470e-a900-f34a9f40cedd', 'req_id': '', 'op': 'subscribe'}
+2024-07-15T21:20:49.938751+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'ed1bd844-5c29-470e-a900-f34a9f40cedd', 'req_id': '', 'op': 'subscribe'}
+2024-07-15T21:21:10.529418+0930 INFO Event loop closed
+2024-07-15T21:22:17.429275+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'fddc9dca-3317-4324-8082-19f5f7a7772f', 'req_id': '', 'op': 'subscribe'}
+2024-07-15T21:22:17.444362+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'fddc9dca-3317-4324-8082-19f5f7a7772f', 'req_id': '', 'op': 'subscribe'}
+2024-07-15T21:22:17.459181+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'fddc9dca-3317-4324-8082-19f5f7a7772f', 'req_id': '', 'op': 'subscribe'}
+2024-07-15T21:22:17.473941+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'fddc9dca-3317-4324-8082-19f5f7a7772f', 'req_id': '', 'op': 'subscribe'}
+2024-07-15T21:22:17.489443+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'fddc9dca-3317-4324-8082-19f5f7a7772f', 'req_id': '', 'op': 'subscribe'}
+2024-07-15T21:22:17.504324+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'fddc9dca-3317-4324-8082-19f5f7a7772f', 'req_id': '', 'op': 'subscribe'}
+2024-07-15T21:22:17.519568+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'fddc9dca-3317-4324-8082-19f5f7a7772f', 'req_id': '', 'op': 'subscribe'}
+2024-07-15T21:22:17.534856+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'fddc9dca-3317-4324-8082-19f5f7a7772f', 'req_id': '', 'op': 'subscribe'}
+2024-07-15T21:22:17.550322+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'fddc9dca-3317-4324-8082-19f5f7a7772f', 'req_id': '', 'op': 'subscribe'}
+2024-07-15T21:22:47.659661+0930 INFO Event loop closed
+2024-07-15T21:25:15.837621+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'ce5ba39e-d598-4dbb-9118-86b3b6c5bd94', 'req_id': '', 'op': 'subscribe'}
+2024-07-15T21:25:15.854239+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'ce5ba39e-d598-4dbb-9118-86b3b6c5bd94', 'req_id': '', 'op': 'subscribe'}
+2024-07-15T21:25:15.870099+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'ce5ba39e-d598-4dbb-9118-86b3b6c5bd94', 'req_id': '', 'op': 'subscribe'}
+2024-07-15T21:25:15.886413+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'ce5ba39e-d598-4dbb-9118-86b3b6c5bd94', 'req_id': '', 'op': 'subscribe'}
+2024-07-15T21:25:15.903312+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'ce5ba39e-d598-4dbb-9118-86b3b6c5bd94', 'req_id': '', 'op': 'subscribe'}
+2024-07-15T21:25:15.919587+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'ce5ba39e-d598-4dbb-9118-86b3b6c5bd94', 'req_id': '', 'op': 'subscribe'}
+2024-07-15T21:25:15.936138+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'ce5ba39e-d598-4dbb-9118-86b3b6c5bd94', 'req_id': '', 'op': 'subscribe'}
+2024-07-15T21:25:15.952997+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'ce5ba39e-d598-4dbb-9118-86b3b6c5bd94', 'req_id': '', 'op': 'subscribe'}
+2024-07-15T21:25:15.969433+0930 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'ce5ba39e-d598-4dbb-9118-86b3b6c5bd94', 'req_id': '', 'op': 'subscribe'}
+2024-07-15T21:25:22.731012+0930 INFO Event loop closed
+2024-07-15T21:31:22.369351+0930 ERROR Unhandled error in WebSocket connection: list indices must be integers or slices, not str
+2024-07-15T21:31:28.376492+0930 ERROR Unhandled error in WebSocket connection: list indices must be integers or slices, not str
+2024-07-15T21:31:33.109754+0930 INFO Event loop closed
+2024-07-15T21:35:32.045391+0930 ERROR Unhandled error in WebSocket connection: list indices must be integers or slices, not str
+2024-07-15T21:35:38.108359+0930 ERROR Unhandled error in WebSocket connection: list indices must be integers or slices, not str
+2024-07-15T21:35:41.629995+0930 INFO Event loop closed
+2024-07-15T21:37:18.484119+0930 INFO Event loop closed
+2024-07-15T21:39:03.636687+0930 INFO Event loop closed
+2024-07-15T21:49:55.015896+0930 INFO Event loop closed
+2024-07-15T21:51:42.913307+0930 INFO Event loop closed
+2024-07-15T21:51:55.424215+0930 INFO Event loop closed
+2024-07-15T21:52:26.287082+0930 INFO Event loop closed
+2024-07-15T21:56:40.441497+0930 INFO Event loop closed
+2024-07-15T21:59:39.610009+0930 INFO Event loop closed
+2024-07-15T22:00:55.504128+0930 INFO Event loop closed
+2024-07-15T22:03:58.984935+0930 INFO Event loop closed
+2024-07-15T22:06:27.245586+0930 INFO Event loop closed
+2024-07-15T22:06:42.138319+0930 INFO Event loop closed
+2024-07-15T22:07:37.358381+0930 INFO Event loop closed
+2024-07-15T22:08:42.020665+0930 INFO Event loop closed
+2024-07-15T22:12:00.435388+0930 INFO Event loop closed
+2024-07-15T22:13:08.476410+0930 INFO Event loop closed
+2024-07-15T22:18:42.508781+0930 INFO Event loop closed
+2024-07-15T22:21:16.825518+0930 INFO Event loop closed
