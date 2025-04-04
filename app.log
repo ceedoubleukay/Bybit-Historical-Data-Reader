@@ -21484,3 +21484,68 @@ TypeError: 'Config' object does not support item assignment
 2024-07-11T13:50:20.580393+0930 ERROR Error upserting klines into Supabase: {}
 2024-07-11T13:50:21.012474+0930 ERROR Error upserting klines into Supabase: {}
 2024-07-11T13:51:19.858027+0930 ERROR Error upserting klines into Supabase: {}
+2025-04-04T15:58:30.266799+1030 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'a535720a-4c1e-4831-b7f1-de482f1403b1', 'req_id': '', 'op': 'subscribe'}
+2025-04-04T15:58:30.415112+1030 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'a535720a-4c1e-4831-b7f1-de482f1403b1', 'req_id': '', 'op': 'subscribe'}
+2025-04-04T15:58:30.561664+1030 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'a535720a-4c1e-4831-b7f1-de482f1403b1', 'req_id': '', 'op': 'subscribe'}
+2025-04-04T15:58:30.711195+1030 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'a535720a-4c1e-4831-b7f1-de482f1403b1', 'req_id': '', 'op': 'subscribe'}
+2025-04-04T15:58:30.854791+1030 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'a535720a-4c1e-4831-b7f1-de482f1403b1', 'req_id': '', 'op': 'subscribe'}
+2025-04-04T15:58:30.998662+1030 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'a535720a-4c1e-4831-b7f1-de482f1403b1', 'req_id': '', 'op': 'subscribe'}
+2025-04-04T15:58:31.143469+1030 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'a535720a-4c1e-4831-b7f1-de482f1403b1', 'req_id': '', 'op': 'subscribe'}
+2025-04-04T15:58:31.287618+1030 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'a535720a-4c1e-4831-b7f1-de482f1403b1', 'req_id': '', 'op': 'subscribe'}
+2025-04-04T15:58:31.429805+1030 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'a535720a-4c1e-4831-b7f1-de482f1403b1', 'req_id': '', 'op': 'subscribe'}
+2025-04-04T15:58:54.194282+1030 INFO Event loop closed
+2025-04-04T16:17:47.302735+1030 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'ec165f7e-79c5-454f-ad64-03ba7edf5654', 'req_id': '', 'op': 'subscribe'}
+2025-04-04T16:17:47.325257+1030 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': '1a48f978-ffd6-4cdf-b9c5-16f7450fc268', 'req_id': '', 'op': 'subscribe'}
+2025-04-04T16:17:47.615682+1030 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'ec165f7e-79c5-454f-ad64-03ba7edf5654', 'req_id': '', 'op': 'subscribe'}
+2025-04-04T16:17:47.635948+1030 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': '1a48f978-ffd6-4cdf-b9c5-16f7450fc268', 'req_id': '', 'op': 'subscribe'}
+2025-04-04T16:17:47.926806+1030 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'ec165f7e-79c5-454f-ad64-03ba7edf5654', 'req_id': '', 'op': 'subscribe'}
+2025-04-04T16:17:47.943781+1030 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': '1a48f978-ffd6-4cdf-b9c5-16f7450fc268', 'req_id': '', 'op': 'subscribe'}
+2025-04-04T16:17:48.235228+1030 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'ec165f7e-79c5-454f-ad64-03ba7edf5654', 'req_id': '', 'op': 'subscribe'}
+2025-04-04T16:17:48.255845+1030 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': '1a48f978-ffd6-4cdf-b9c5-16f7450fc268', 'req_id': '', 'op': 'subscribe'}
+2025-04-04T16:17:48.542824+1030 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'ec165f7e-79c5-454f-ad64-03ba7edf5654', 'req_id': '', 'op': 'subscribe'}
+2025-04-04T16:17:48.559979+1030 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': '1a48f978-ffd6-4cdf-b9c5-16f7450fc268', 'req_id': '', 'op': 'subscribe'}
+2025-04-04T16:17:48.847554+1030 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'ec165f7e-79c5-454f-ad64-03ba7edf5654', 'req_id': '', 'op': 'subscribe'}
+2025-04-04T16:17:48.866628+1030 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': '1a48f978-ffd6-4cdf-b9c5-16f7450fc268', 'req_id': '', 'op': 'subscribe'}
+2025-04-04T16:17:49.155431+1030 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'ec165f7e-79c5-454f-ad64-03ba7edf5654', 'req_id': '', 'op': 'subscribe'}
+2025-04-04T16:17:49.172784+1030 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': '1a48f978-ffd6-4cdf-b9c5-16f7450fc268', 'req_id': '', 'op': 'subscribe'}
+2025-04-04T16:17:49.463433+1030 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'ec165f7e-79c5-454f-ad64-03ba7edf5654', 'req_id': '', 'op': 'subscribe'}
+2025-04-04T16:17:49.483159+1030 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': '1a48f978-ffd6-4cdf-b9c5-16f7450fc268', 'req_id': '', 'op': 'subscribe'}
+2025-04-04T16:17:49.776816+1030 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'ec165f7e-79c5-454f-ad64-03ba7edf5654', 'req_id': '', 'op': 'subscribe'}
+2025-04-04T16:17:49.798889+1030 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': '1a48f978-ffd6-4cdf-b9c5-16f7450fc268', 'req_id': '', 'op': 'subscribe'}
+2025-04-04T16:17:52.540207+1030 INFO Event loop closed
+2025-04-04T16:18:00.992936+1030 ERROR Error upserting klines into Supabase: [Errno -2] Name or service not known
+2025-04-04T16:18:01.301245+1030 ERROR Error upserting klines into Supabase: [Errno -2] Name or service not known
+2025-04-04T16:18:01.450298+1030 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'bc02edaa-6be8-4212-9a21-9c8fc951c900', 'req_id': '', 'op': 'subscribe'}
+2025-04-04T16:18:01.468083+1030 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'e7f8ee34-10ad-4523-b242-b65b6a1cbeef', 'req_id': '', 'op': 'subscribe'}
+2025-04-04T16:18:01.748340+1030 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'bc02edaa-6be8-4212-9a21-9c8fc951c900', 'req_id': '', 'op': 'subscribe'}
+2025-04-04T16:18:01.762814+1030 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'e7f8ee34-10ad-4523-b242-b65b6a1cbeef', 'req_id': '', 'op': 'subscribe'}
+2025-04-04T16:18:02.038336+1030 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'bc02edaa-6be8-4212-9a21-9c8fc951c900', 'req_id': '', 'op': 'subscribe'}
+2025-04-04T16:18:02.051149+1030 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'e7f8ee34-10ad-4523-b242-b65b6a1cbeef', 'req_id': '', 'op': 'subscribe'}
+2025-04-04T16:18:02.328799+1030 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'bc02edaa-6be8-4212-9a21-9c8fc951c900', 'req_id': '', 'op': 'subscribe'}
+2025-04-04T16:18:02.341684+1030 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'e7f8ee34-10ad-4523-b242-b65b6a1cbeef', 'req_id': '', 'op': 'subscribe'}
+2025-04-04T16:19:00.709665+1030 ERROR Error upserting klines into Supabase: [Errno -2] Name or service not known
+2025-04-04T16:19:04.660103+1030 INFO Event loop closed
+2025-04-04T16:19:09.639441+1030 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'a6b3ef7f-3292-4751-8f6f-5684f9c3261c', 'req_id': '', 'op': 'subscribe'}
+2025-04-04T16:19:09.651487+1030 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'afa0b5bb-4500-4a16-ad45-4470673913c5', 'req_id': '', 'op': 'subscribe'}
+2025-04-04T16:19:09.934208+1030 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'a6b3ef7f-3292-4751-8f6f-5684f9c3261c', 'req_id': '', 'op': 'subscribe'}
+2025-04-04T16:19:09.945941+1030 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'afa0b5bb-4500-4a16-ad45-4470673913c5', 'req_id': '', 'op': 'subscribe'}
+2025-04-04T16:19:10.228775+1030 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'a6b3ef7f-3292-4751-8f6f-5684f9c3261c', 'req_id': '', 'op': 'subscribe'}
+2025-04-04T16:19:10.240217+1030 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'afa0b5bb-4500-4a16-ad45-4470673913c5', 'req_id': '', 'op': 'subscribe'}
+2025-04-04T16:19:10.724094+1030 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'a6b3ef7f-3292-4751-8f6f-5684f9c3261c', 'req_id': '', 'op': 'subscribe'}
+2025-04-04T16:19:10.732413+1030 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'afa0b5bb-4500-4a16-ad45-4470673913c5', 'req_id': '', 'op': 'subscribe'}
+2025-04-04T16:20:00.858173+1030 ERROR Error upserting klines into Supabase: [Errno -2] Name or service not known
+2025-04-04T16:20:01.282537+1030 ERROR Error upserting klines into Supabase: [Errno -2] Name or service not known
+2025-04-04T16:20:03.137551+1030 ERROR Error upserting klines into Supabase: [Errno -2] Name or service not known
+2025-04-04T16:20:03.763935+1030 ERROR Error upserting klines into Supabase: [Errno -2] Name or service not known
+2025-04-04T16:20:05.816487+1030 INFO Event loop closed
+2025-04-04T16:20:28.985092+1030 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': '5b56eb30-8d44-4156-967b-7545f9993a2e', 'req_id': '', 'op': 'subscribe'}
+2025-04-04T16:20:28.994739+1030 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'bc825e1b-5f4c-4c07-84eb-73ed3752a249', 'req_id': '', 'op': 'subscribe'}
+2025-04-04T16:20:29.267008+1030 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': '5b56eb30-8d44-4156-967b-7545f9993a2e', 'req_id': '', 'op': 'subscribe'}
+2025-04-04T16:20:29.279766+1030 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'bc825e1b-5f4c-4c07-84eb-73ed3752a249', 'req_id': '', 'op': 'subscribe'}
+2025-04-04T16:20:29.554302+1030 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': '5b56eb30-8d44-4156-967b-7545f9993a2e', 'req_id': '', 'op': 'subscribe'}
+2025-04-04T16:20:29.563876+1030 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'bc825e1b-5f4c-4c07-84eb-73ed3752a249', 'req_id': '', 'op': 'subscribe'}
+2025-04-04T16:20:29.836154+1030 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': '5b56eb30-8d44-4156-967b-7545f9993a2e', 'req_id': '', 'op': 'subscribe'}
+2025-04-04T16:20:29.845327+1030 INFO Successfully subscribed: {'success': True, 'ret_msg': '', 'conn_id': 'bc825e1b-5f4c-4c07-84eb-73ed3752a249', 'req_id': '', 'op': 'subscribe'}
+2025-04-04T16:21:01.501356+1030 ERROR Error upserting klines into Supabase: [Errno -2] Name or service not known
+2025-04-04T16:21:04.373157+1030 ERROR Error upserting klines into Supabase: [Errno -2] Name or service not known
+2025-04-04T16:21:22.068083+1030 INFO Event loop closed

@@ -33,7 +33,7 @@ def setup_logger(log_level):
 
 async def main():
     parser = argparse.ArgumentParser(description='Bybit Historical Data Reader')
-    parser.add_argument('--symbol', type=str, help='Trading symbol (e.g., BTCUSDT)', default='BTCUSDT')
+    parser.add_argument('--symbol', type=str, help='Comma-separated trading symbols (e.g., BTCUSDT,ETHUSDT)', default='BTCUSDT')
     parser.add_argument('--timeframes', type=str, help='Comma-separated timeframes (e.g., 1,5,15)', default='1')
     parser.add_argument('--start-date', type=str, help='Start date (e.g., 2024-07-01)', default='2024-07-01')
     parser.add_argument('--fetch-initial-data', action='store_true', help='Fetch initial data and create schema')
@@ -48,24 +48,27 @@ async def main():
     config = load_config()
     supabase = create_client(config.SUPABASE_URL, config.SUPABASE_SERVICE_KEY)
 
-    # Split the timeframes string into a list
+    # Split the symbols and timeframes strings into lists
+    symbols = [symbol.strip() for symbol in args.symbol.split(',')]
     timeframes = [tf.strip() for tf in args.timeframes.split(',')]
 
     if args.test_gaps:
         end_date = args.end_date or datetime.now().isoformat()
-        await run_gap_test_and_fill(args.symbol, args.start_date, end_date, config, timeframes, args.log_level)
+        for symbol in symbols:
+            await run_gap_test_and_fill(symbol, args.start_date, end_date, config, timeframes, args.log_level)
     elif args.fetch_initial_data:
-        for timeframe in timeframes:
-            existing_data_response = supabase.table('candles').select('datetime').eq('symbol', args.symbol).eq('timeframe', timeframe).order('datetime', desc=True).limit(1).execute()
-            existing_data = existing_data_response.data
-            if existing_data:
-                latest_datetime = existing_data[0]['datetime']
-                await fetch_initial_data(args.symbol, timeframe, latest_datetime, config, args.batch_size)
-            else:
-                await fetch_initial_data(args.symbol, timeframe, args.start_date, config, args.batch_size)
+        for symbol in symbols:
+            for timeframe in timeframes:
+                existing_data_response = supabase.table('candles').select('datetime').eq('symbol', symbol).eq('timeframe', timeframe).order('datetime', desc=True).limit(1).execute()
+                existing_data = existing_data_response.data
+                if existing_data:
+                    latest_datetime = existing_data[0]['datetime']
+                    await fetch_initial_data(symbol, timeframe, latest_datetime, config, args.batch_size)
+                else:
+                    await fetch_initial_data(symbol, timeframe, args.start_date, config, args.batch_size)
     else:
         try:
-            await start_websocket_connections([args.symbol], timeframes, args.start_date, config)
+            await start_websocket_connections(symbols, timeframes, args.start_date, config)
         except KeyboardInterrupt:
             logger.info("Received keyboard interrupt, shutting down...")
         finally:
